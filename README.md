@@ -9,6 +9,8 @@ Trebuchet. Up the reds
   <img src="media/trebuchet2.png" width="370" />
 </p>
 
+[Link](https://www.real-world-physics-problems.com/trebuchet-physics.html) to pictures.
+
 ### Materials
 
 | Material  | Quantity |
