@@ -3,7 +3,9 @@ Trebuchet. Up the reds
 
 ## Planning
 
-| First Header  | Second Header |
+| Material  | Quantity |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Raspberry Pi Zero  | 1 |
+| Accelerometer | 1 |
+| Altimiter | 1 |
+| 
