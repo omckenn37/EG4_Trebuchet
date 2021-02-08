@@ -27,12 +27,12 @@ Trebuchet. Up the reds
 
 | What?  | Why? |
 | ------------- | ------------- |
-| Take Accerlation Values  | 1 |
-| Take Altitude | 1 |
-| Find time in air | 1 |
-| Find Displacement | 1 |
-| Take Make Velocity | 1 |
-| Calculate Equation Model | 1 |
-| Graph equation on Webpage | 1 |
+| Take Accerlation Values  | So we can find the equation of the flight|
+| Take Altitude | So we can find the equation of the flight |
+| Find time in air | Sp we can find the equation of the flight |
+| Find Displacement | So we can find the equation of the flight, and know distance  |
+| Find Max Velocity | So we can find the equation of the flight, and know speed/velocity |
+| Calculate Equation Model | So we can graph the flight, and know all we want about the flight/trajectory |
+| Graph equation on Webpage | So we can visually represent the flight |
 | Profit | Become a government contractor for Trebuchets|
 
