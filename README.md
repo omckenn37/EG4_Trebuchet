@@ -29,7 +29,7 @@ Trebuchet. Up the reds
 | ------------- | ------------- |
 | Take Accerlation Values  | So we can find the equation of the flight|
 | Take Altitude | So we can find the equation of the flight |
-| Find time in air | Sp we can find the equation of the flight |
+| Find time in air | So we can find the equation of the flight |
 | Find Displacement | So we can find the equation of the flight, and know distance  |
 | Find Max Velocity | So we can find the equation of the flight, and know speed/velocity |
 | Calculate Equation Model | So we can graph the flight, and know all we want about the flight/trajectory |
