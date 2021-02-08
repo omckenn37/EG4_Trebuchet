@@ -33,6 +33,7 @@ Trebuchet. Up the reds
 | Find time in air | So we know how long it was in the air |
 | Find Max Velocity | So we can find the equation of the flight, and know speed/velocity |
 | Calculate Equation Model | So we can graph the flight, and know all we want about the flight/trajectory |
-| Graph equation on Webpage | So we can visually represent the flight |
+| Graph true flight on Webpage | So we can visually represent the flight -- in what it actually looked liked |
+| Graph equatuon of flight on Webpage | So we can visually represent the flight -- in what the equation it followed looks like (both graphs should be similar) |
 | Profit | Become a government contractor for Trebuchets|
 
