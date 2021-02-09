@@ -5,12 +5,16 @@ Trebuchet. Up the reds
 
 ### Trebuchet Basics
 
+Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band. The counterweight’s falling motion propels the payload upward as it will eventually release it’s payload. The counterweight needs to be a shorter distance from the central pivot point than the payload so that the payload will reach its highest possible velocity. 
+
+
 <p float="left">
   <img src="media/trebuchet.png" width="450" />
   <img src="media/trebuchet2.png" width="300" />
 </p>
 
 <img src="media/trebuchet3.PNG" width="300" />
+
 
 [Link](https://www.real-world-physics-problems.com/trebuchet-physics.html) to pictures.
 
