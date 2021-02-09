@@ -10,7 +10,7 @@ Trebuchet. Up the reds
   <img src="media/trebuchet2.png" width="300" />
 </p>
 
-<img src="media/trebuchet3.png" width="300" />
+<img src="media/trebuchet3.PNG" width="300" />
 
 [Link](https://www.real-world-physics-problems.com/trebuchet-physics.html) to pictures.
 
