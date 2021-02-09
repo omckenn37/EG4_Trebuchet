@@ -5,8 +5,8 @@ Trebuchet. Up the reds
 
 ### Trebuchet Basics
 <p float="left">
-  <img src="media/trebuchet.png" width="550" />
-  <img src="media/trebuchet2.png" width="370" />
+  <img src="media/trebuchet.png" width="450" />
+  <img src="media/trebuchet2.png" width="300 />
 </p>
 
 [Link](https://www.real-world-physics-problems.com/trebuchet-physics.html) to pictures.
