@@ -52,5 +52,17 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 | Week | Lukas | Owen | Graham |  
 | ------------- | ------------- | ------------- | ------------- |
 | Feb 22 - Mar 1 |   |  |   |
-
+| Mar 1 - Mar 8 |   |  |   |
+| Mar 8 - Mar 15 |   |  |   |
+| Mar 15 - Mar 22 |   |  |   |
+| Mar 22 - Mar 29 |   |  |   |
+| Mar 29 - Apl 5 |   |  |   |
+| Apl 5 - Apl 12 |   |  |   |
+| Apl 12 - Apl 19 |   |  |   |
+| Apl 26 - May 3  |   |  |   |
+| May 3 - May 10  |   |  |   |
+| May 10 - May 17  |   |  |   |
+| May 17 - May 24  |   |  |   |
+| May 24 - May 31  |   |  |   |
+| May 31 - End of Year  |   |  |   |
 
