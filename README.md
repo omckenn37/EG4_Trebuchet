@@ -41,7 +41,7 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 | Find time in air | So we know how long it was in the air | No, but we have the tools |
 | Find Max Velocity | So we can find the equation of the flight, and know speed/velocity | Yes |
 | Calculate Equation Model | So we can graph the flight, and know all we want about the flight/trajectory | No |
-| Graph true flight on Webpage | So we can visually represent the flight -- in what it actually looked liked | A little bit |
+| Graph true flight on Webpage | So we can visually represent the flight -- in what it actually looked liked | Yes |
 | Graph equation of flight on Webpage | So we can visually represent the flight -- in what the equation it followed looks like (both graphs should be similar) | No |
 | Profit | Become a government contractor for Trebuchets| Of Course |
 
