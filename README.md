@@ -51,7 +51,7 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 
 | Week | Lukas | Owen | Graham |  
 | ------------- | ------------- | ------------- | ------------- |
-| Feb 22 - Mar 1 |   |  |   |
+| Feb 22 - Mar 1 |   |  | Build Code Shell - Pseudocode   |
 | Mar 1 - Mar 8 |   |  |   |
 | Mar 8 - Mar 15 |   |  |   |
 | Mar 15 - Mar 22 |   |  |   |
