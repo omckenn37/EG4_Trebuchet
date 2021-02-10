@@ -36,7 +36,7 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 | What?  | Why? | Have we learned this in the assignments? |
 | ------------- | ------------- | ------------- |
 | Take Accerlation Values  | So we can find the accerlation over time, to help record the flight model| Yes |
-| Find Displacement | So we can find the roots of the equation of the flight, and know distance, to help find the equation of the flight  | Maybe |
+| Find Displacement | So we can find the roots of the equation of the flight, and know distance, to help find the equation of the flight  | No |
 | Take Altitude (and Max Altitude) | So we can find the max of the flight, to help find the equation of the flight | No, but we have an altimeter |
 | Find time in air | So we know how long it was in the air | No, but we have the tools |
 | Find Max Velocity | So we can find the equation of the flight, and know speed/velocity | Yes |
