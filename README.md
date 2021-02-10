@@ -45,3 +45,12 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 | Graph equation of flight on Webpage | So we can visually represent the flight -- in what the equation it followed looks like (both graphs should be similar) | No |
 | Profit | Become a government contractor for Trebuchets| Of Course |
 
+
+### Timeline
+
+
+| Week | Lukas | Owen | Graham |  
+| ------------- | ------------- | ------------- | ------------- |
+|  |  |  |  |
+
+
