@@ -51,7 +51,7 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 
 | Week | Lukas | Owen | Graham |  
 | ------------- | ------------- | ------------- | ------------- |
-| Feb 22 - Mar 1 | Get dimensions, build rough structure in CAD |  | Build Code Shell - Pseudocode   |
+| Feb 22 - Mar 1 | Get dimensions, build rough structure in CAD | empty | Build Code Shell - Pseudocode   |
 | Mar 1 - Mar 8 | Plan, rough CAD | Research trebuchet physics, find optimal design | Wire all needed devices, make sure they work  |
 | Mar 8 - Mar 15 | Build capsule | Research trebuchet physics, find optimal design | Fill in during Pseudocode  |
 | Mar 15 - Mar 22 | Build capsule | Trebuchet CAD | Fill in during Pseudocode  |
