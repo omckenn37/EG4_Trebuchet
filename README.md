@@ -33,15 +33,15 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 
 ### Code Goals
 
-| What?  | Why? |
-| ------------- | ------------- |
-| Take Accerlation Values  | So we can find the accerlation over time, to help record the flight model|
-| Find Displacement | So we can find the roots of the equation of the flight, and know distance, to help find the equation of the flight  |
-| Take Altitude (and Max Altitude) | So we can find the max of the flight, to help find the equation of the flight |
-| Find time in air | So we know how long it was in the air |
-| Find Max Velocity | So we can find the equation of the flight, and know speed/velocity |
-| Calculate Equation Model | So we can graph the flight, and know all we want about the flight/trajectory |
-| Graph true flight on Webpage | So we can visually represent the flight -- in what it actually looked liked |
-| Graph equatuon of flight on Webpage | So we can visually represent the flight -- in what the equation it followed looks like (both graphs should be similar) |
-| Profit | Become a government contractor for Trebuchets|
+| What?  | Why? | Have we learned this in the assignments? |
+| ------------- | ------------- | ------------- |
+| Take Accerlation Values  | So we can find the accerlation over time, to help record the flight model| Yes |
+| Find Displacement | So we can find the roots of the equation of the flight, and know distance, to help find the equation of the flight  | Maybe |
+| Take Altitude (and Max Altitude) | So we can find the max of the flight, to help find the equation of the flight | No, but we have an altimeter |
+| Find time in air | So we know how long it was in the air | No, but we have the tools |
+| Find Max Velocity | So we can find the equation of the flight, and know speed/velocity | Yes |
+| Calculate Equation Model | So we can graph the flight, and know all we want about the flight/trajectory | No |
+| Graph true flight on Webpage | So we can visually represent the flight -- in what it actually looked liked | A little bit |
+| Graph equation of flight on Webpage | So we can visually represent the flight -- in what the equation it followed looks like (both graphs should be similar) | No |
+| Profit | Become a government contractor for Trebuchets| Of Course |
 
