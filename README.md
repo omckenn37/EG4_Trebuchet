@@ -51,18 +51,18 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 
 | Week | Lukas | Owen | Graham |  
 | ------------- | ------------- | ------------- | ------------- |
-| Feb 22 - Mar 1 |   |  | Build Code Shell - Pseudocode   |
-| Mar 1 - Mar 8 |   |  | Wire all needed devices, make sure they work  |
-| Mar 8 - Mar 15 |   |  | Fill in during Pseudocode  |
-| Mar 15 - Mar 22 |   |  | Fill in during Pseudocode  |
-| Mar 22 - Mar 29 |   |  | Fill in during Pseudocode  |
-| Mar 29 - Apl 5 |   |  | Fill in during Pseudocode  |
-| Apl 5 - Apl 12 |   |  | Fill in during Pseudocode  |
-| Apl 12 - Apl 19 |   |  |Fill in during Pseudocode   |
-| Apl 26 - May 3  |   |  |Fill in during Pseudocode   |
-| May 3 - May 10  |   |  | Integrate code/wires to launch capsule  |
-| May 10 - May 17  |   |  | Integrate code/wires to launch capsule   |
-| May 17 - May 24  |   |  | Extra Time built in  |
-| May 24 - May 31  |   |  | Extra Time built in   |
-| May 31 - End of Year  |   |  |Extra Time built in    |
+| Feb 22 - Mar 1 | Get dimensions, build rough structure in CAD |  | Build Code Shell - Pseudocode   |
+| Mar 1 - Mar 8 | Plan, rough CAD | Research trebuchet physics, find optimal design | Wire all needed devices, make sure they work  |
+| Mar 8 - Mar 15 | Build capsule | Research trebuchet physics, find optimal design | Fill in during Pseudocode  |
+| Mar 15 - Mar 22 | Build capsule | Trebuchet CAD | Fill in during Pseudocode  |
+| Mar 22 - Mar 29 | Build capsule | Trebuchet CAD | Fill in during Pseudocode  |
+| Mar 29 - Apl 5 | Build capsule | Trebuchet CAD | Fill in during Pseudocode  |
+| Apl 5 - Apl 12 | Do capsule electronics | Trebuchet CAD | Fill in during Pseudocode  |
+| Apl 12 - Apl 19 | Do capsule electronics | Trebuchet CAD |Fill in during Pseudocode   |
+| Apl 26 - May 3  | Do capsule electronics | Trebuchet CAD |Fill in during Pseudocode   |
+| May 3 - May 10  | Trebuchet bulding | Build & test | Integrate code/wires to launch capsule  |
+| May 10 - May 17  | Trebuchet bulding | Build & test | Integrate code/wires to launch capsule   |
+| May 17 - May 24  | Trebuchet bulding | Re-design | Extra Time built in  |
+| May 24 - May 31  | Extra time built in | Re-design | Extra Time built in   |
+| May 31 - End of Year  | Extra time built in | Extra time built in |Extra Time built in    |
 
