@@ -52,17 +52,17 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 | Week | Lukas | Owen | Graham |  
 | ------------- | ------------- | ------------- | ------------- |
 | Feb 22 - Mar 1 |   |  | Build Code Shell - Pseudocode   |
-| Mar 1 - Mar 8 |   |  |   |
-| Mar 8 - Mar 15 |   |  |   |
-| Mar 15 - Mar 22 |   |  |   |
-| Mar 22 - Mar 29 |   |  |   |
-| Mar 29 - Apl 5 |   |  |   |
-| Apl 5 - Apl 12 |   |  |   |
-| Apl 12 - Apl 19 |   |  |   |
-| Apl 26 - May 3  |   |  |   |
-| May 3 - May 10  |   |  |   |
-| May 10 - May 17  |   |  |   |
-| May 17 - May 24  |   |  |   |
-| May 24 - May 31  |   |  |   |
-| May 31 - End of Year  |   |  |   |
+| Mar 1 - Mar 8 |   |  | Wire all needed devices, make sure they work  |
+| Mar 8 - Mar 15 |   |  | Fill in during Pseudocode  |
+| Mar 15 - Mar 22 |   |  | Fill in during Pseudocode  |
+| Mar 22 - Mar 29 |   |  | Fill in during Pseudocode  |
+| Mar 29 - Apl 5 |   |  | Fill in during Pseudocode  |
+| Apl 5 - Apl 12 |   |  | Fill in during Pseudocode  |
+| Apl 12 - Apl 19 |   |  |Fill in during Pseudocode   |
+| Apl 26 - May 3  |   |  |Fill in during Pseudocode   |
+| May 3 - May 10  |   |  | Integrate code/wires to launch capsule  |
+| May 10 - May 17  |   |  | Integrate code/wires to launch capsule   |
+| May 17 - May 24  |   |  | Extra Time built in  |
+| May 24 - May 31  |   |  | Extra Time built in   |
+| May 31 - End of Year  |   |  |Extra Time built in    |
 
