@@ -7,18 +7,14 @@ Trebuchet. Up the reds
 
 #### Trebuchet Basics
 
-<img align="right" src="media/trebuchet_real.jpg" width="300">
+<img align="right" src="media/trebuchet_real.jpg" width="250">
 
-Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band, but the use of a counterweight allows the payload to cover much greater distances than a traditional catapult. Trebuchets also tend to have greater accuracy than catapults. In order to achieve maxium distance, the counterweight must be heavier than the payload. For our purposes, we figure a good starting range would be at least 100 feet; we want to possibly increase this goal to 200-300 feet depending on how initial testing goes. 
+Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band. The use of a counterweight allows the payload to cover much greater distances than a traditional catapult; trebuchets also tend to have greater accuracy than catapults. In order to achieve maxium distance, the counterweight must be heavier than the payload. For our purposes, we figure a good starting range would be at least 100 feet; we want to possibly increase this goal to 200-300 feet depending on how initial testing goes. 
 
 #### Trebuchet Physics
 
-<p float="left">
-  <img src="media/trebuchet.png" width="450" />
-  <img src="media/trebuchet2.png" width="300" />
-</p>
+<img align="right" src="media/trebuchet.png" width="300" />
 
-<img src="media/trebuchet3.PNG" width="300" />
 
 
 [Link](https://www.real-world-physics-problems.com/trebuchet-physics.html) to pictures.
