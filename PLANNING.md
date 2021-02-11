@@ -3,10 +3,15 @@ Trebuchet. Up the reds
 
 ## Planning
 
-### Trebuchet Basics
+### Trebuchet 
 
-Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band. The counterweight’s falling motion propels the payload upward as it will eventually release it’s payload. The counterweight needs to be a shorter distance from the central pivot point than the payload so that the payload will reach its highest possible velocity. 
+#### Trebuchet Basics
 
+<img align="right" src="media/trebuchet_real.jpg" width="300">
+
+Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band, but the use of a counterweight allows the payload to cover much greater distances than a traditional catapult. Trebuchets also tend to have greater accuracy than catapults. In order to achieve maxium distance, the counterweight must be heavier than the payload. For our purposes, we figure a good starting range would be at least 100 feet; we want to possibly increase this goal to 200-300 feet depending on how initial testing goes. 
+
+#### Trebuchet Physics
 
 <p float="left">
   <img src="media/trebuchet.png" width="450" />
