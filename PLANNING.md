@@ -77,5 +77,4 @@ The capsule is going to be a spherical container which will hold the raspberry p
 [Cole and Dani's Pi in the Sky Project](http://wiki.chssigma.com/index.php?title=Dani_and_Cole%27s_Pi_in_the_Sky)
 
 
-
-
+[Trebuchet Physics in Real Life](https://www.real-world-physics-problems.com/trebuchet-physics.html)
