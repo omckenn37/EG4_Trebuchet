@@ -13,17 +13,13 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 
 #### Trebuchet Physics
 
-Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band. The use of a counterweight allows the payload to cover much greater distances than a traditional catapult; trebuchets also tend to have greater accuracy than catapults. In order to achieve maxium distance, the counterweight must be heavier than the payload. For our purposes, we figure a good starting range would be at least 100 feet; we want to possibly increase this goal to 200-300 feet depending on how initial testing goes. 
+In general, they key for getting maxiumum range out of a trebuchet is by finding the right realease angle for the pouch and the right mass for the counterweight. Obviously, having a heavier counterweight will increase the range. Finding the right release angle is a bit trickier. Looking at the graphics below, you can see that the component determining the pouch release angle is the finger. If we make the beam the horiziontal axis in relation to the finger, then a positive angle would result in a later release time while a negative angle would result in an earlier release time. 
 
 <p float="left">
-  <img src="media/trebuchet.png" width="300" />
-  <img src="media/trebuchet2.png" width="200" />
-  <img  src="media/trebuchet3.PNG" width="245" />
+  <img src="media/trebuchet.png" height="350" />
+  <img src="media/trebuchet2.png" height="350" />
+  <img  src="media/trebuchet3.PNG" height="350" />
 </p>
-
-Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band. The use of a counterweight allows the payload to cover much greater distances than a traditional catapult; trebuchets also tend to have greater accuracy than catapults. In order to achieve maxium distance, the counterweight must be heavier than the payload. For our purposes, we figure a good starting range would be at least 100 feet; we want to possibly increase this goal to 200-300 feet depending on how initial testing goes. 
-Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band. The use of a counterweight allows the payload to cover much greater distances than a traditional catapult; trebuchets also tend to have greater accuracy than catapults. In order to achieve maxium distance, the counterweight must be heavier than the payload. For our purposes, we figure a good starting range would be at least 100 feet; we want to possibly increase this goal to 200-300 feet depending on how initial testing goes. 
-Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band. The use of a counterweight allows the payload to cover much greater distances than a traditional catapult; trebuchets also tend to have greater accuracy than catapults. In order to achieve maxium distance, the counterweight must be heavier than the payload. For our purposes, we figure a good starting range would be at least 100 feet; we want to possibly increase this goal to 200-300 feet depending on how initial testing goes. 
 
 
 
