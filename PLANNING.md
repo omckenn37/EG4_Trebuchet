@@ -13,8 +13,11 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 
 #### Trebuchet Physics
 
-<img align="right" src="media/trebuchet.png" width="300" />
-
+<p float="left">
+  <img src="media/trebuchet.png" width="300" />
+  <img src="media/trebuchet2.png" width="200" />
+  <img src="media/trebuchet3.PNG" width="200" />
+</p>
 
 
 [Link](https://www.real-world-physics-problems.com/trebuchet-physics.html) to pictures.
