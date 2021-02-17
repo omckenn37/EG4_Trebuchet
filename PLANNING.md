@@ -75,7 +75,7 @@ The capsule is going to be a spherical container which will hold the raspberry p
 
 
 
-Equation Modeling:
+Equation Modeling -- Answer at bottom:
 
 (x,y) or (distance x interval, height y invterval) or (((time * velocity) / amount of sleep intervals) * interval, height) 
 
@@ -93,15 +93,15 @@ total dx = 1/2 * a * t^2
 
 therefore
 
-interval dx = (1/2) * a * t^2 * (current interval / total interval )
+interval dx = (1/2) * ax * t^2 * (current interval / total interval )
 
 
 or
 
 
-dx = 1/2 * a * t^2 
+dx = 1/2 * accel_x * t^2 
 
-then we substitute the a and t values from each array. Then, we use that dx as our x, and height as y. Then we plug that x and y into an equation function.
+then we substitute the a and t values from each array at each interval. Then, we use that dx as our x, and height as y. Then we plug that x and y into an equation function.
 
 
 
