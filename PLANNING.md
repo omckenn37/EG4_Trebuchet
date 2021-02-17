@@ -88,3 +88,5 @@ The capsule is going to be a spherical container which will hold the raspberry p
 
 
 [Array to Quadratic Equation](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html)
+
+[Curve Fitting with Python](https://machinelearningmastery.com/curve-fitting-with-python)
