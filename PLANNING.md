@@ -42,7 +42,9 @@ The capsule is going to be a spherical container which will hold the raspberry p
 | USB-A to microUSB power cable | 1 |
 
 
-### Code Goals
+### Code 
+
+#### Prep Table
 
 | What?  | Why? | Have we learned this in the assignments? |
 | ------------- | ------------- | ------------- |
@@ -55,6 +57,21 @@ The capsule is going to be a spherical container which will hold the raspberry p
 | Graph true flight on Webpage | So we can visually represent the flight -- in what it actually looked liked | Yes |
 | Graph equation of flight on Webpage | So we can visually represent the flight -- in what the equation it followed looks like (both graphs should be similar) | No |
 | Profit | Become a government contractor for Trebuchets| Of Course |
+
+#### Pseudo Pseudo Code
+    
+      When launch button pressed
+            while IN AIR:
+            
+              Record height, acceleration, time
+              sleep( small delay )
+              
+      
+            while Not IN AIR:
+              calculate equation model
+              graph equation
+              put equation on webpage
+              put data on webpage
 
 
 ### Timeline
