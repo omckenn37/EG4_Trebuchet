@@ -29,24 +29,6 @@ In general, they key for getting maxiumum range out of a trebuchet is by finding
 
 The capsule is going to be a spherical container which will hold the raspberry pi, a breadboard, accelerometer, altimeter, and the Lithium ion Polymer battery and this capsule is the payload of the trebuchet. These components will be wired up and fastened into the structure of the capsule so that they don’t move around and get damaged. The capsule will be wrapped in some sort of foam in order to make the impact with the ground softer for the materials inside.
 
-### How we plan to find the flight equation
-
-Use the altimeter and time in order to graph the equation. X being the time, Y being the height. Since we only need three points to find a quadratic equation, we will use the launch time and height (0,0) then the vertex (halfway time, max height), and lastly landing time (full time, 0)
-
-1: Launch
-
-2: When launch button pressed, start a timer, and calculate the altitude using the altimeter (this will become our height of 0)
-
-3: Actually launch the capsule
-
-4: Find the max altitude
-
-5: When the max altitude (y of the vertex), is found, check the timer (x of the vertex)
-
-
-Side Note -- Depending on the difficulty of finding x displacement, we are going to start by using time as the x axis instead of the displacement. If the displacement in the x direction is relatively straightforward to find, we will use that, but to begin, we will use time as our x axis. 
-
-
 
 ### Materials
 
@@ -103,3 +85,6 @@ Side Note -- Depending on the difficulty of finding x displacement, we are going
 
 
 [Trebuchet Physics in Real Life](https://www.real-world-physics-problems.com/trebuchet-physics.html)
+
+
+[Array to Quadratic Equation](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html)
