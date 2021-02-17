@@ -13,7 +13,7 @@ Trebuchets are ancient siege weapons that utilize a counterweight to launch a pr
 
 #### Trebuchet Physics
 
-In general, they key for getting maxiumum range out of a trebuchet is by finding the right realease angle for the pouch and the right mass for the counterweight. Obviously, having a heavier counterweight will increase the range. Finding the right release angle is a bit trickier. Looking at the graphics below, you can see that the component determining the pouch release angle is the finger. If we make the beam the horiziontal axis in relation to the finger, then a positive angle would result in a later release time while a negative angle would result in an earlier release time. 
+In general, they key for getting maxiumum range out of a trebuchet is by finding the right release angle for the pouch and the right mass for the counterweight. Obviously, having a heavier counterweight will increase the range. Finding the right release angle is a bit trickier. Looking at the graphics below, you can see that the component determining the pouch release angle is the finger. If we make the beam the horiziontal axis in relation to the finger, then a positive angle would result in a later release time while a negative angle would result in an earlier release time. 
 
 <p float="left">
   <img src="media/trebuchet.png" height="350" />
