@@ -21,11 +21,16 @@ In general, they key for getting maxiumum range out of a trebuchet is by finding
   <img  src="media/trebuchet3.PNG" height="350" />
 </p>
 
+[Link](https://www.real-world-physics-problems.com/trebuchet-physics.html) to pictures.
+
 #### Trebuchet Build
 
 To build the base for the trebuchet, we plan on using some wood from Lowes or Home Depot or some place like that. To attach these together, we plan on using 3d printed joints that the pieces can slot into and help down with scews.
 
-[Link](https://www.real-world-physics-problems.com/trebuchet-physics.html) to pictures.
+Here's a quick sketch of what this is probably going to look like:
+
+<img align="center" src="media/Connector_plan.JPG" width="400">
+
 
 ### Payload Capsule
 
