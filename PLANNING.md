@@ -21,7 +21,9 @@ In general, they key for getting maxiumum range out of a trebuchet is by finding
   <img  src="media/trebuchet3.PNG" height="350" />
 </p>
 
+#### Trebuchet Build
 
+To build the base for the trebuchet, we plan on using some wood from Lowes or Home Depot or some place like that. To attach these together, we plan on using 3d printed joints that the pieces can slot into and help down with scews.
 
 [Link](https://www.real-world-physics-problems.com/trebuchet-physics.html) to pictures.
 
@@ -40,6 +42,7 @@ The capsule is going to be a spherical container which will hold the raspberry p
 | Lipo Battery | 1 |
 | Power booster | 1 |
 | USB-A to microUSB power cable | 1 |
+| Wood beams for trebuchet construcion | ? |
 
 
 ### Code 
