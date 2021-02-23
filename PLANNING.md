@@ -77,29 +77,29 @@ The capsule is going to be a spherical container which will hold the raspberry p
 
 Equation Modeling -- Answer at bottom:
 
-(x,y) or (distance x interval, height y invterval) or (((time * velocity) / amount of sleep intervals) * interval, height) 
+```(x,y) or (distance x interval, height y invterval) or (((time * velocity) / amount of sleep intervals) * interval, height)```
 
 or
 
-((( total time * (acceleration_x * current time)) / amount of sleep intervals) * interval, height) 
+```((( total time * (acceleration_x * current time)) / amount of sleep intervals) * interval, height)``` 
 
 or
 
-The Kinematic -- dx = vi * t + 1/2 * a * t^2
+The Kinematic -- ```dx = vi * t + 1/2 * a * t^2```
 
 so 
 
-total dx = 1/2 * a * t^2
+total ```dx = 1/2 * a * t^2```
 
 therefore
 
-interval dx = (1/2) * ax * t^2 * (current interval / total interval )
+interval ```dx = (1/2) * ax * t^2 * (current interval / total interval )```
 
 
 or
 
 
-dx = 1/2 * accel_x * t^2 
+```dx = 1/2 * accel_x * t^2``` 
 
 then we substitute the a and t values from each array at each interval. Then, we use that dx as our x, and height as y. Then we plug that x and y into an equation function.
 
