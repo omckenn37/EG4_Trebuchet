@@ -25,11 +25,13 @@ In general, they key for getting maxiumum range out of a trebuchet is by finding
 
 #### Trebuchet Build
 
-To build the base for the trebuchet, we plan on using some wood from Lowes or Home Depot or some place like that. To attach these together, we plan on using 3d printed joints that the pieces can slot into and help down with scews.
+To build the base for the trebuchet, we plan on using some wood beams and planks. To attach these together, we are going to use 3d printed joints that the pieces can slot into. Once slotted inside the 3d printed connectors, the beams can then be screwed into the connectors using some wood screws. 
 
 Here's a quick sketch of what this is probably going to look like:
 
 <img align="center" src="media/Connector_plan.JPG" width="400">
+
+These types of connetors will allow us to connect different beams at whatever angles we need without having to cut a bunch of wood. Plus, they will offer a pretty strong connection between beams. 
 
 
 ### Payload Capsule
