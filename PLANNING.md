@@ -38,6 +38,7 @@ These types of connetors will allow us to connect different beams at whatever an
 
 The capsule is going to be a spherical container which will hold the raspberry pi, a breadboard, accelerometer, altimeter, and the Lithium ion Polymer battery and this capsule is the payload of the trebuchet. These components will be wired up and fastened into the structure of the capsule so that they don’t move around and get damaged. The capsule will be wrapped in some sort of foam in order to make the impact with the ground softer for the materials inside.
 
+<img align="center" src="media/CapsulePlanning-Trebuchet.png" width="400">
 
 ### Materials
 
