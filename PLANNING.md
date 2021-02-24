@@ -38,7 +38,7 @@ These types of connetors will allow us to connect different beams at whatever an
 
 <img align="right" src="media/CapsulePlanning-Trebuchet.png" width="400">
 
-The capsule is going to be a spherical container which will hold the raspberry pi, a breadboard, accelerometer, altimeter, and the Lithium ion Polymer battery and this capsule is the payload of the trebuchet. These components will be wired up and fastened into the structure of the capsule so that they don’t move around and get damaged. The capsule will be wrapped in some sort of foam in order to make the impact with the ground softer for the materials inside.
+The capsule is going to be a spherical container which will hold the raspberry pi, a breadboard, accelerometer, altimeter, and the Lithium ion Polymer battery and this capsule is the payload of the trebuchet. These components will be wired up and fastened into the structure of the capsule so that they don’t move around and get damaged. The capsule will be wrapped in some sort of foam in order to make the impact with the ground softer for the materials inside. In the picture below you can see how the components will be organized in the capsule. The pi is going to be screwed into the beams going across the middle of the capsule. The lithium battery will be fastened to the wall and connected to the power booster which will be screwed into a mount on the wall and will be powering the pi. The altimeter and accelerometer will be mounted and screwed in on the other side of the capsule.
 
 
 
