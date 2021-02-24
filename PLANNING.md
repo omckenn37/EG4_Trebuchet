@@ -129,14 +129,14 @@ then we substitute the a and t values from each array at each interval. Then, we
 | ------------- | ------------- | ------------- | ------------- |
 | Feb 22 - Mar 1 | Get dimensions, build rough structure in CAD | Research trebuchet physics, find optimal design | Build Code Shell - Pseudocode   |
 | Mar 1 - Mar 8 | Plan, rough CAD | Research trebuchet physics, find optimal design | Wire all needed devices, make sure they work  |
-| Mar 8 - Mar 15 | Build capsule | Research trebuchet physics, find optimal design | Fill in during Pseudocode  |
-| Mar 15 - Mar 22 | Build capsule | Trebuchet CAD | Fill in during Pseudocode  |
-| Mar 22 - Mar 29 | Build capsule | Trebuchet CAD | Fill in during Pseudocode  |
-| Mar 29 - Apl 5 | Build capsule | Trebuchet CAD | Fill in during Pseudocode  |
-| Apl 5 - Apl 12 | Do capsule electronics | Trebuchet CAD | Fill in during Pseudocode  |
-| Apl 12 - Apl 19 | Do capsule electronics | Trebuchet CAD |Fill in during Pseudocode   |
-| Apl 26 - May 3  | Do capsule electronics | Trebuchet CAD |Fill in during Pseudocode   |
-| May 3 - May 10  | Trebuchet bulding | Build & test | Integrate code/wires to launch capsule  |
+| Mar 8 - Mar 15 | Build capsule | Research trebuchet physics, find optimal design | Create Variables and Attached Devices |
+| Mar 15 - Mar 22 | Build capsule | Trebuchet CAD | Get While Altitude Loop looping and appending to raw arrays  |
+| Mar 22 - Mar 29 | Build capsule | Trebuchet CAD | get raw arrays converted to x and y final arrays  |
+| Mar 29 - Apl 5 | Build capsule | Trebuchet CAD | Extra Time Built in - Mid-Project  |
+| Apl 5 - Apl 12 | Do capsule electronics | Trebuchet CAD | Plotting the Flight of the Graph  |
+| Apl 12 - Apl 19 | Do capsule electronics | Trebuchet CAD | Find the equation of the graph   |
+| Apl 26 - May 3  | Do capsule electronics | Trebuchet CAD | Get all of the data on to a Flask Site   |
+| May 3 - May 10  | Trebuchet bulding | Build & test | Get all of the data on to a Flask Site  |
 | May 10 - May 17  | Trebuchet bulding | Build & test | Integrate code/wires to launch capsule   |
 | May 17 - May 24  | Trebuchet bulding | Re-design | Extra Time built in  |
 | May 24 - May 31  | Extra time built in | Re-design | Extra Time built in   |
