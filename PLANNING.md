@@ -29,7 +29,11 @@ To build the base for the trebuchet, we plan on using some wood beams and planks
 
 Here's a quick sketch of what this is probably going to look like:
 
-<img align="center" src="media/Connector_plan.JPG" width="400">
+<p float="left">
+  <img src="media/Connector_plan.JPG" height="300">
+  <img src="media/trebuchet_sketch.JPG" height="300">
+</p>
+
 
 These types of connetors will allow us to connect different beams at whatever angles we need without having to cut a bunch of wood. Plus, they will offer a pretty strong connection between beams. 
 
