@@ -30,8 +30,8 @@ To build the base for the trebuchet, we plan on using some wood beams and planks
 Here's a quick sketch of what this is probably going to look like:
 
 <p float="left">
-  <img src="media/Connector_plan.JPG" height="300">
-  <img src="media/trebuchet_sketch.JPG" height="300">
+  <img src="media/Connector_plan.JPG" height="350">
+  <img src="media/trebuchet_sketch.JPG" height="350">
 </p>
 
 
