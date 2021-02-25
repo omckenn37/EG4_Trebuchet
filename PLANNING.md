@@ -52,7 +52,8 @@ The capsule is going to be a spherical container which will hold the raspberry p
 | Lipo Battery | 1 |
 | Power booster | 1 |
 | USB-A to microUSB power cable | 1 |
-| Wood beams for trebuchet construcion | ? |
+| Wood beams for trebuchet construcion | Many |
+| Gyroscope module | 1 |
 
 
 ### Code 
