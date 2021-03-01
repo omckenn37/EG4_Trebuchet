@@ -29,14 +29,21 @@ To build the base for the trebuchet, we plan on using some wood beams and planks
 
 Here's a quick sketch of what this is probably going to look like:
 
-<img align="center" src="media/Connector_plan.JPG" width="400">
+<p float="left">
+  <img src="media/Connector_plan.JPG" height="350">
+  <img src="media/trebuchet_sketch.JPG" height="350">
+</p>
+
 
 These types of connetors will allow us to connect different beams at whatever angles we need without having to cut a bunch of wood. Plus, they will offer a pretty strong connection between beams. 
 
 
 ### Payload Capsule
 
-The capsule is going to be a spherical container which will hold the raspberry pi, a breadboard, accelerometer, altimeter, and the Lithium ion Polymer battery and this capsule is the payload of the trebuchet. These components will be wired up and fastened into the structure of the capsule so that they don’t move around and get damaged. The capsule will be wrapped in some sort of foam in order to make the impact with the ground softer for the materials inside.
+<img align="right" src="media/CapsulePlanning-Trebuchet.png" width="400">
+
+The capsule is going to be a spherical container which will hold the raspberry pi, a breadboard, accelerometer, altimeter, and the Lithium ion Polymer battery and this capsule is the payload of the trebuchet. These components will be wired up and fastened into the structure of the capsule so that they don’t move around and get damaged. The capsule will be wrapped in some sort of foam in order to make the impact with the ground softer for the materials inside. In the picture below you can see how the components will be organized in the capsule. The pi is going to be screwed into the beams going across the middle of the capsule. The lithium battery will be fastened to the wall and connected to the power booster which will be screwed into a mount on the wall and will be powering the pi. The altimeter and accelerometer will be mounted and screwed in on the other side of the capsule.
+
 
 
 ### Materials
@@ -49,7 +56,8 @@ The capsule is going to be a spherical container which will hold the raspberry p
 | Lipo Battery | 1 |
 | Power booster | 1 |
 | USB-A to microUSB power cable | 1 |
-| Wood beams for trebuchet construcion | ? |
+| Wood beams for trebuchet construcion | Many |
+| Gyroscope module | 1 |
 
 
 ### Code 
