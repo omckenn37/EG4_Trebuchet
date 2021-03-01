@@ -1,0 +1,35 @@
+import time
+import Adafruit_SSD1306
+import Adafruit_LSM303
+
+from PIL import Image
+from PIL import ImageDraw
+from PIL import ImageFont
+
+RST = 24
+accelerometer = Adafruit_LSM303.LSM303() # accelerometer setup
+
+
+#------------------------------ 
+#everything above this line can be taken from the two examples
+#the examples are linked on my Engineering Notebook 
+
+while True:
+	accel, mag = accelerometer.read() # gets accelerometer data
+	accel_x, accel_y, accel_z = accel #sets the acceleration values
+	
+	mag_x, mag_y, mag_z = mag 
+	#although I don't use this, the .read() taken 6 points of data, so you need to give places for all 6 data points
+
+	print("accel_x: " + str(accel_x))
+	print("accel_y: " + str(accel_y))
+	print("accel_z: " + str(accel_z))
+
+	
+	#draw.text((x, top), "Accelerometer Data:", font=font, fill=255) # draws header
+	#draw.text((x, top + 10), "Accel x ={0}".format(round(accel_x / 100, 3)), font=font, fill=255) # draws x 
+	#draw.text((x, top + 20), "Accel y ={0}".format(round(accel_y / 100, 3)), font=font, fill=255) # draws y
+	#draw.text((x, top + 30), "Accel z ={0}".format(round(accel_z / 100, 3)), font=font, fill=255) # draws z
+
+	#added a sleep just for fun and to make sure nothing dies
+	time.sleep(.1)
