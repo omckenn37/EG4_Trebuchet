@@ -1,0 +1,26 @@
+
+
+#imports 
+
+import time
+
+import board
+import busio
+
+i2c = busio.I2C(board.SCL, board.SDA)
+
+import Adafruit_LSM303
+
+
+
+#Altimeter set up
+import adafruit_mpl3115a2
+altimeter = adafruit_mpl3115a2.MPL3115A2(i2c)
+# maybe set up the pascal thing from the example? if it is inaccurate
+
+
+#Accelerometer set up
+RST = 24
+accelerometer = Adafruit_LSM303.LSM303() # accelerometer setup
+
+
