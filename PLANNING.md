@@ -9,7 +9,7 @@ Trebuchet. Up the reds
 
 <img align="right" src="media/trebuchet_real.jpg" width="250">
 
-Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band. The use of a counterweight allows the payload to cover much greater distances than a traditional catapult; trebuchets also tend to have greater accuracy than catapults. In order to achieve maxium distance, the counterweight must be heavier than the payload. For our purposes, we figure a good starting range would be at least 100 feet; we want to possibly increase this goal to 200-300 feet depending on how initial testing goes. 
+Trebuchets are ancient siege weapons that utilize a counterweight to launch a projectile great distances. They are pretty much catapults except they use a counterweight rather than some sort of spring or rubber band. The use of a counterweight allows the payload to cover much greater distances than a traditional catapult; trebuchets also tend to have greater accuracy than catapults. In order to achieve maxium distance, the counterweight must be heavier than the payload. For our purposes, we figure a good starting range would be at least 100 feet; we want to possibly increase this goal depending on how initial testing goes. 
 
 #### Trebuchet Physics
 
@@ -91,35 +91,6 @@ The capsule is going to be a spherical container which will hold the raspberry p
               put equation on webpage
               put data on webpage
 
-
-
-Equation Modeling -- Answer at bottom:
-
-```(x,y) or (distance x interval, height y invterval) or (((time * velocity) / amount of sleep intervals) * interval, height)```
-
-or
-
-```((( total time * (acceleration_x * current time)) / amount of sleep intervals) * interval, height)``` 
-
-or
-
-The Kinematic -- ```dx = vi * t + 1/2 * a * t^2```
-
-so 
-
-total ```dx = 1/2 * a * t^2```
-
-therefore
-
-interval ```dx = (1/2) * ax * t^2 * (current interval / total interval )```
-
-
-or
-
-
-```dx = 1/2 * accel_x * t^2``` 
-
-then we substitute the a and t values from each array at each interval. Then, we use that dx as our x, and height as y. Then we plug that x and y into an equation function.
 
 
 
