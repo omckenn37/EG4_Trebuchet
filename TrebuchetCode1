@@ -30,9 +30,33 @@ startPhrase = str("Lukas")
 startInput = input("Enter the word " + str(startPhrase) + ": ")
 
 
+
+#Countdown Timer
+def runCountdownTimer():
+        for i in range (1,5):
+                num = 6 - i
+                print("Launching in " + str(num))
+                time.sleep(1)
+        print("Launching in 1")
+        time.sleep(1)
+        print("Launching Now")
+
+
+
+
 # If launched initiated
 if startInput == startPhrase:
-	print("working")
+	runCountdownTimer()
 
+
+
+
+
+
+
+
+# If launch phrase is wrong
 if startInput != startPhrase:
 	print("invalid launch phrase, please type: " + str(startPhrase))
+
+
