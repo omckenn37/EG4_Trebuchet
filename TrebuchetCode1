@@ -24,3 +24,15 @@ RST = 24
 accelerometer = Adafruit_LSM303.LSM303() # accelerometer setup
 
 
+# word to type in to launch
+startPhrase = str("Lukas")
+
+startInput = input("Enter the word " + str(startPhrase) + ": ")
+
+
+# If launched initiated
+if startInput == startPhrase:
+	print("working")
+
+if startInput != startPhrase:
+	print("invalid launch phrase, please type: " + str(startPhrase))
