@@ -26,7 +26,6 @@ accelerometer = Adafruit_LSM303.LSM303() # accelerometer setup
 
 # word to type in to launch
 startPhrase = str("Lukas")
-
 startInput = input("Enter the word " + str(startPhrase) + ": ")
 
 
@@ -39,14 +38,34 @@ def runCountdownTimer():
                 time.sleep(1)
         print("Launching in 1")
         time.sleep(1)
-        print("Launching Now")
+        print("Countdown Done")
 
 
+#Actually Launch
+def Launch():
+
+	print("Launch Initiated")	
+
+	# ADD THE ACTUAL LAUNCH CODE HERE
+
+	print("Launch Done")
+
+#Wind Up 
+def windUp():
+
+	launchTrackingDelay = 1
+
+	print("Wind Up Running")
+	time.sleep(launchTrackingDelay)
+	print("Wind Up Done")
 
 
 # If launched initiated
 if startInput == startPhrase:
 	runCountdownTimer()
+	Launch()
+	windUp()
+	
 
 
 
