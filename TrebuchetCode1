@@ -59,6 +59,15 @@ def windUp():
 	time.sleep(launchTrackingDelay)
 	print("Wind Up Done")
 
+def inFreefall():
+	
+	print("Freefall Running")
+
+	#take readings
+
+	#if no longer in air
+	print("Freefall Done")
+
 
 # If launched initiated
 if startInput == startPhrase:
