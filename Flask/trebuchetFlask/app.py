@@ -84,7 +84,9 @@ def index():
                         
                         startPhrase = str("Lukas")
                         startInput = input("Enter " + str(startPhrase) + "  to confirm Launch: ")
-                        
+
+                        if startInput != startPhrase:
+                                 print("Invalid launch phrase, please type: " + str(startPhrase))                        
 
                         if startInput == startPhrase:
                                  runCountdownTimer()
