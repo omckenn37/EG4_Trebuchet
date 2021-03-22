@@ -10,6 +10,9 @@ import busio
 
 import Adafruit_LSM303
 
+import matplotlib.pyplot as plt
+plt.ion()
+
 i2c = busio.I2C(board.SCL, board.SDA)
 
 GPIO.setwarnings(False)
@@ -70,6 +73,13 @@ def inFreefall():
 	#if no longer in air
 	print("Freefall Done")
 
+def landed():
+
+	print("Landed Running")
+
+	plt.plot([1,2,3,4], [1,4,9,16], 'ro')
+	plt.axis([0, 6, 0, 20])
+	plt.show()
 
 
 
@@ -93,6 +103,7 @@ def index():
                                  Launch()
                                  windUp()
                                  inFreefall()
+                                 landed()
 
 
 	       elif request.form.get('button2') == 'button2':
