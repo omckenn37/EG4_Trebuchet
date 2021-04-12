@@ -20,7 +20,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(17,GPIO.OUT)
 GPIO.setup(12,GPIO.OUT)
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 
 
@@ -79,7 +79,7 @@ def landed():
 
 	plt.plot([1,2,3,4], [1,4,9,19], 'ro')
 	plt.axis([0, 6, 0, 20])
-	plt.savefig("MPLTest1.png")
+	plt.savefig("/Documents/Engineering_4/Trebuchet/EG4_Trebuchet/Flask/trebuchetFlask/templates/MPLTest1.png")
 	plt.show()
 
 
@@ -105,11 +105,6 @@ def index():
                                  windUp()
                                  inFreefall()
                                  landed()
-
-
-	       elif request.form.get('button2') == 'button2':
-                	# pass # do something else
-                	print("button2")
 
 	       else:
                 	# pass # unknown
