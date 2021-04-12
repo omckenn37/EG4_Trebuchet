@@ -79,7 +79,7 @@ def landed():
 
 	plt.plot([1,2,3,4], [1,4,9,19], 'ro')
 	plt.axis([0, 6, 0, 20])
-	plt.savefig("/Documents/Engineering_4/Trebuchet/EG4_Trebuchet/Flask/trebuchetFlask/templates/MPLTest1.png")
+	plt.savefig("static/images/refreshTestImage.png")
 	plt.show()
 
 
