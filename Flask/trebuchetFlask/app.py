@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import RPi.GPIO as GPIO
 
 
+import random
 import time
 
 import board
@@ -77,12 +78,15 @@ def landed():
 
 	print("Landed Running")
 
-	plt.plot([1,2,3,4], [1,4,9,19], 'ro')
+	colors = ['ro','mo', 'yo']
+
+
+	plt.plot([1,2,3,4], [1,4,9,19], "mo")
 	plt.axis([0, 6, 0, 20])
 	plt.savefig("static/images/refreshTestImage.png")
 	plt.show()
 
-
+	print("Landed Done")
 
 
 
