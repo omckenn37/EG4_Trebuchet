@@ -22,7 +22,7 @@ GPIO.setup(17,GPIO.OUT)
 GPIO.setup(12,GPIO.OUT)
 
 app = Flask(__name__, static_url_path='/static')
-
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
 
 #Altimeter set up
@@ -81,7 +81,7 @@ def landed():
 	colors = ['ro','mo', 'yo']
 
 
-	plt.plot([1,2,3,4], [1,4,9,19], "mo")
+	plt.plot([1,2,3,4], [1,4,9,19], random.choice(colors))
 	plt.axis([0, 6, 0, 20])
 	plt.savefig("static/images/refreshTestImage.png")
 	plt.show()
