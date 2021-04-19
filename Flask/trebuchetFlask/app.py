@@ -79,7 +79,8 @@ def landed():
 	print("Landed Running")
 
 	colors = ['ro','mo', 'yo']
-
+	ax=plt.axes()
+	ax.set_facecolor("#000033")
 
 	plt.plot([1,2,3,4], [1,4,9,19], random.choice(colors))
 	plt.axis([0, 6, 0, 20])
