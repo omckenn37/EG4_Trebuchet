@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
  
 filename = "imageSaveTest.png"
-fnt = ImageFont.truetype('arial.tff', 15)
+fnt = ImageFont.truetype('arial.ttf', 15)
 
 
 image = Image.new(mode="RGB", size = (200,200))
