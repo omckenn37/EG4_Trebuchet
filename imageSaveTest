@@ -1,8 +1,19 @@
 from PIL import Image, ImageDraw, ImageFont
  
 filename = "imageSaveTest.png"
+fnt = ImageFont.truetype('arial.tff', 15)
+
 
 image = Image.new(mode="RGB", size = (200,200))
+
+
+draw = ImageDraw.Draw(image)
+
+
+text = "Lukas"
+
+draw.text((10,10), text, font=fnt, fill=(255,255,0))
+
 
 image.show()
 
