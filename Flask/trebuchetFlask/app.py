@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from PIL import Image, ImageDraw, ImageFont
 import RPi.GPIO as GPIO
 
-dataImageFilename = "dataImage.png"
+
 fnt = ImageFont.truetype('arial.ttf', 15)
 
 
@@ -81,6 +81,8 @@ def index():
 
 				# landed()
 				print("Landed Running")
+
+
 				colors = ['ro', 'mo', 'yo']
 				ax=plt.axes()
 				ax.set_facecolor("#000033")
@@ -88,6 +90,13 @@ def index():
 				plt.axis([0,6,0,20])
 				plt.savefig("static/images/refreshTestImage.png")
 				plt.show()
+
+				image = Image.new(mode="RGB", size = (200,200))
+				draw = ImageDraw.Draw(image)
+				text = "Lukas"
+				draw.text((10,10), text, font=fnt, fill=(255,255,0))
+				image.save("static/images/dataImage.png")
+
 				print("Landed Done")
 
 		else:
