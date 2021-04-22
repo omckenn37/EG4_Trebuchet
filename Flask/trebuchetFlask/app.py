@@ -91,7 +91,7 @@ def index():
 				plt.savefig("static/images/refreshTestImage.png")
 				plt.show()
 
-				image = Image.new(mode="RGB", size = (200,200))
+				image = Image.new(mode="RGB", size = (300,300), color = (73,109,137))
 				draw = ImageDraw.Draw(image)
 				text = "Lukas"
 				draw.text((10,10), text, font=fnt, fill=(255,255,0))

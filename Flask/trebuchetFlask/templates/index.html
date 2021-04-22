@@ -27,17 +27,6 @@ button:active{
 	
 }
 
-.graphclass{
-	margin-left: 5%;
-	width: 25%;
-	margin-top:5%;
-}
-
-.textclass{
-	
-	margin-right: 5%;
-	margin-top: 5%;
-{
 
 body{
 background-color: #000033;
@@ -45,6 +34,25 @@ color: #FFFFFF;
 text-align:center;
 list-style-position: inside;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
 
 </style>
 </head>
@@ -65,8 +73,16 @@ list-style-position: inside;
 	<li> (If Graph Not Updated, press CTRL + SHIFT + R</li>
 </ol>
 
-<img src="/static/images/refreshTestImage.png" alt="Lukas" class="graphclass">
-<img src="/static/images/dataImage.png" alt="Lukas" class="textclass">
+<div class="row">
+  <div class="column">
+    <img src="/static/images/refreshTestImage.png" alt="Graph" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/static/images/dataImage.png" alt="Data" style="width:100%">
+  </div>
+</div>
+
+
 <meta http-equiv="refresh" content="5">
 
 </body>
