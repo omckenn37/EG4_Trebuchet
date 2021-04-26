@@ -98,6 +98,8 @@ def index():
 
 				x = np.linspace(0,10,25)
 				y = (A * x**2) + (B*x) + C
+				yString = str(str(A)+ "x^2 + " + str(B) + "x + " + str(C))
+
 
 				ax=plt.axes()
 				ax.set_facecolor("#000033")
@@ -108,7 +110,7 @@ def index():
 
 				image = Image.new(mode="RGB", size = (300,225), color = (0,0,51))
 				draw = ImageDraw.Draw(image)
-				text = str("Equation = \n Distance = \n Height = ")
+				text = str("Equation = " + yString + "\n Distance = \n Height = ")
 				draw.text((10,10), text, font=fnt, fill=(255,255,255))
 				image.save("static/images/dataImage.png")
 
