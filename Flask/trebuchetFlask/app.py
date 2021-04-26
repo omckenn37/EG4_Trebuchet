@@ -72,30 +72,59 @@ def index():
 				# windUp()
 				print("Wind Up Started")
 				time.sleep(1)
+
+				#find exit velocity
+
 				print("Wind Up Done")
+
 
 				# inFreefall()
 				print("In Freefall")
 
 
 
-				#take initial altitude
+				#take initial altitude - set this as ground height
 
 
-				#find max altitude
-				#take x acceleration
-				
+				#find max altitude and time it is at
 
+
+				# test for ground, find time and height of impact
 				print("Freefall done")
 
 				# landed()
+
 				print("Landed Running")
+
+				#x1 = 0
+				#y1 = 
+				#ground height - ground height
+
+				#x2 = 
+				# half of displacement
+				# v * 1/2(t)	t = time at max height
+				#y2 =
+				#Max height (vertex)
+				# find this first
+				#max height - ground height
+
+
+				#x3 =
+				#total displacement
+				# v * t
+				#y3 = 
+				#final height - ground height
+
+
+				#Here goes code from Low Usage Folder
+
 
 				A = -4/5
 				B = 3
 				C = 5
 
 
+				#x = np.linspace(0,displacement,100)
 				x = np.linspace(0,10,25)
 				y = (A * x**2) + (B*x) + C
 				yString = str(str(A)+ "x^2 + " + str(B) + "x + " + str(C))
@@ -105,6 +134,7 @@ def index():
 				ax.set_facecolor("#000033")
 				plt.plot(x,y, c = "GhostWhite")
 				plt.axis([0,10,0,10])
+				#plt.axis(0,displacement, 0, max height)
 				plt.savefig("static/images/refreshTestImage.png")
 				plt.show()
 
