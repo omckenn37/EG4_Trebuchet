@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 
 fnt = ImageFont.truetype('arial.ttf', 15)
 
-
+import numpy as np
 
 import random
 import time
@@ -76,25 +76,40 @@ def index():
 
 				# inFreefall()
 				print("In Freefall")
-				#take readings
+
+
+
+				#take initial altitude
+
+
+				#find max altitude
+				#take x acceleration
+				
+
 				print("Freefall done")
 
 				# landed()
 				print("Landed Running")
 
+				A = -4/5
+				B = 3
+				C = 5
 
-				colors = ['ro', 'mo', 'yo']
+
+				x = np.linspace(0,10,25)
+				y = (A * x**2) + (B*x) + C
+
 				ax=plt.axes()
 				ax.set_facecolor("#000033")
-				plt.plot([1,2,3,4],[1,4,9,19], random.choice(colors))
-				plt.axis([0,6,0,20])
+				plt.plot(x,y, c = "GhostWhite")
+				plt.axis([0,10,0,10])
 				plt.savefig("static/images/refreshTestImage.png")
 				plt.show()
 
-				image = Image.new(mode="RGB", size = (300,300), color = (73,109,137))
+				image = Image.new(mode="RGB", size = (300,225), color = (0,0,51))
 				draw = ImageDraw.Draw(image)
-				text = "Lukas"
-				draw.text((10,10), text, font=fnt, fill=(255,255,0))
+				text = str("Equation = \n Distance = \n Height = ")
+				draw.text((10,10), text, font=fnt, fill=(255,255,255))
 				image.save("static/images/dataImage.png")
 
 				print("Landed Done")
