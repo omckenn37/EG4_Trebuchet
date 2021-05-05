@@ -4,11 +4,20 @@ sensor = mpu6050(0x68)
 
 accelerometer_data = sensor.get_accel_data()
 
+gyro_data = sensor.get_gyro_data()
+
 #print(accelerometer_data)
 #print(accelerometer_data.values())
 
 x,y,z = accelerometer_data.values()
 
+a, b, c = gyro_data.values()
+
+
 print(x)
 print(y)
 print(z)
+
+print(a)
+print(b)
+print(c)

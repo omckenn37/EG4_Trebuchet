@@ -4,31 +4,59 @@ import time
 from mpu6050 import mpu6050
 import math
 
-accelerometer = mpu6050(0x68)
+sensor = mpu6050(0x68)
 
-accelerometer_data = accelerometer.get_accel_data()
+accelerometer_data = sensor.get_accel_data()
+
+gyro_data = sensor.get_gyro_data()
 
 
 # find initial acceleration, set it as velocity
-vxi,vyi,vzi = accelerometer_data.values()
+
+vx = 0
+vy = 0
+vz = 0
+
+gdeltax = 0
+gdeltay = 0
+gdeltaz = 0
 
 
 start_time = time.time()
 seconds = 1
 
+i = 0
+
+last_time = 0
+this_time = 0
+
 while True:
+	
+	
+	dt = last_time - this_time
+	this_time = time.time()
+
 	current_time = time.time()
 	elapsed_time = current_time - start_time
 	
+	#gx, gy, gz, = gyro_data.values()
+
+	#gdeltax = (gx * dt) + gdeltax
+	#gdeltay = (gy * dt) + gdeltay
+	#gdeltaz = (gz * dt) + gdeltaz 
+
 
 	ax, ay, az = accelerometer_data.values()
 
-	vx = (ax * .01) + vxi 
-	vy = (ay * .01) + vyi
-	vz = (az * .01) + vzi
-
-
+	vx = (ax * dt) + vx 
+	vy = (ay * dt) + vy
+	vz = (az * dt) + vz
+	
 	vnet = abs(math.sqrt(((vx)**2) + ((vy)**2) + ((vz)**2)))
+
+	i += 1
+
+	last_time = time.time()
 
 	if elapsed_time > seconds:
 		print("Done")
@@ -38,3 +66,13 @@ print("vx :" + str(vx))
 print("vy :" + str(vy))
 print("vz :" + str(vz)) 
 print("vnet :" + str(vnet))
+
+
+print("gdeltax :" + str(gdeltax))
+print("gdeltay :" + str(gdeltay))
+print("gdeltaz :" + str(gdeltaz))
+
+
+print(i)
+print("dt :" + str(dt))
+print("elapsed time :" + str(elapsed_time))

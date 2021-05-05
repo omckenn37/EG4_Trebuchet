@@ -38,7 +38,7 @@ altimeter = adafruit_mpl3115a2.MPL3115A2(i2c)
 
 #Accelerometer set up
 RST = 24
-accelerometer = Adafruit_LSM303.LSM303() # accelerometer setup
+#accelerometer = Adafruit_LSM303.LSM303() # accelerometer setup
 
 
 @app.route("/", methods=["GET","POST"])
@@ -47,6 +47,9 @@ def index():
 	if request.method == "POST":
 		if request.form.get('button1') == 'button1':
 			#pass
+
+			print("Put ball on stand")
+
                         
 			startPhrase = str("Lukas")
 			startInput = input("Enter " + str(startPhrase) + "  to confirm Launch: ")
@@ -73,7 +76,7 @@ def index():
 				print("Wind Up Started")
 				time.sleep(1)
 
-				#find exit velocity
+				#find exit velocity and angle
 
 				print("Wind Up Done")
 
@@ -83,45 +86,14 @@ def index():
 
 
 
-				#take initial altitude - set this as ground height
 
 
-				#find max altitude and time it is at
-
-
-				# test for ground, find time and height of impact
 				print("Freefall done")
 
 				# landed()
 
 				print("Landed Running")
 
-				#x1 = 0
-				#y1 = 
-				#ground height - ground height
-
-				#x2 = 
-				# half of displacement
-				# v * 1/2(t)	t = time at max height
-				#y2 =
-				#Max height (vertex)
-				# find this first
-				#max height - ground height
-
-
-				#x3 =
-				#total displacement
-				# v * t
-				#y3 = 
-				#final height - ground height
-
-
-				#Here goes code from Low Usage Folder
-
-
-				A = -4/5
-				B = 3
-				C = 5
 
 
 				#x = np.linspace(0,displacement,100)
