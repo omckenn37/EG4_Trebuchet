@@ -16,6 +16,9 @@ import busio
 
 import Adafruit_LSM303
 
+from mpu6050 import mpu6050
+
+
 import matplotlib.pyplot as plt
 plt.ion()
 
@@ -31,15 +34,21 @@ app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
 
 #Altimeter set up
-import adafruit_mpl3115a2
-altimeter = adafruit_mpl3115a2.MPL3115A2(i2c)
+#import adafruit_mpl3115a2
+#altimeter = adafruit_mpl3115a2.MPL3115A2(i2c)
 # maybe set up the pascal thing from the example? if it is inaccurate
 
 
 #Accelerometer set up
 RST = 24
 #accelerometer = Adafruit_LSM303.LSM303() # accelerometer setup
+sensor = mpu6050(0x68)
+accelerometer_data = sensor.get_accel_data()
 
+
+def get_accel_x_value():
+	ax, ay, az, = accelerometer_data.values()
+	return(ax)
 
 @app.route("/", methods=["GET","POST"])
 def index():
@@ -49,8 +58,17 @@ def index():
 			#pass
 
 			print("Put ball on stand")
+			time.sleep(2)
 
-                        
+			while True:
+				accelerometer_data = sensor.get_accel_data()
+				ax, ay, az = accelerometer_data.values()
+				print(ax)
+				time.sleep(.5)
+				if 9.75 < ax < 9.85:
+					break
+
+
 			startPhrase = str("Lukas")
 			startInput = input("Enter " + str(startPhrase) + "  to confirm Launch: ")
 
@@ -94,6 +112,9 @@ def index():
 
 				print("Landed Running")
 
+				A = 1
+				B = 2
+				C = 3
 
 
 				#x = np.linspace(0,displacement,100)
@@ -130,5 +151,6 @@ def index():
 
 if __name__ == "__main__":
 	app.run(host="0.0.0.0", port=80)  #port was 80
+
 
 
