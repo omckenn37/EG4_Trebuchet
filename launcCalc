@@ -39,11 +39,11 @@ while True:
 	current_time = time.time()
 	elapsed_time = current_time - start_time
 	
-	#gx, gy, gz, = gyro_data.values()
+	gx, gy, gz, = gyro_data.values()
 
-	#gdeltax = (gx * dt) + gdeltax
-	#gdeltay = (gy * dt) + gdeltay
-	#gdeltaz = (gz * dt) + gdeltaz 
+	gdeltax = (gx * dt) + gdeltax
+	gdeltay = (gy * dt) + gdeltay
+	gdeltaz = (gz * dt) + gdeltaz 
 
 
 	ax, ay, az = accelerometer_data.values()
@@ -53,6 +53,7 @@ while True:
 	vz = (az * dt) + vz
 	
 	vnet = abs(math.sqrt(((vx)**2) + ((vy)**2) + ((vz)**2)))
+	gnet = abs(math.sqrt(((gdeltax)**2) + ((gdeltay)**2) + ((gdeltaz)**2)))
 
 	i += 1
 
@@ -71,8 +72,8 @@ print("vnet :" + str(vnet))
 print("gdeltax :" + str(gdeltax))
 print("gdeltay :" + str(gdeltay))
 print("gdeltaz :" + str(gdeltaz))
+print("gdeltanet :" + str(gnet))
 
-
-print(i)
-print("dt :" + str(dt))
-print("elapsed time :" + str(elapsed_time))
+#print(i)
+#print("dt :" + str(dt))
+#print("elapsed time :" + str(elapsed_time))
