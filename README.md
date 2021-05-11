@@ -7,7 +7,7 @@ This is the bottom half of the sphere when assembling. This will contain the pie
  
  
  
-<img src="media/NutSlot.png" width="300">
+<img src="media/ScrewSlot.png" width="300">
 
 
 ### Bottom Circle
