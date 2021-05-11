@@ -7,7 +7,7 @@ This is the bottom half of the sphere when assembling. This will contain the pie
 
 
 
-<img src="media/ScrewSlot.png" width="300">
+<img src="media/ScrewSlot.png" width="500">
 This displays the slot that the screw will insert in and go threw to the other half of the sphere and screw the together. This is drilled into the sphere so there is nothing perturding from the spherical shape.
 
 ### Bottom Circle
