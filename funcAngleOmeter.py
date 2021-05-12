@@ -11,6 +11,10 @@ import smbus			#import SMBus module of I2C
 import time
 import math
 
+from mpu6050 import mpu6050
+myAccel = mpu6050(0x68)
+myAccel_data = myAccel.get_accel_data()
+
 kalmanX = KalmanAngle()
 kalmanY = KalmanAngle()
 
@@ -94,7 +98,29 @@ compAngleY = pitch;
 
 timer = time.time()
 flag = 0
+
+
+start_time = time.time()
+seconds = 1
+
+vx = 0
+vy = 0
+vz = 0
+vnet = 0
+
+counter = 0
+kalAngleStart = 0
+
 while True:
+
+	current_time = time.time()
+	elapsed_time = current_time - start_time
+
+
+	if elapsed_time > seconds:
+		print("1 second")
+		break
+
 	if(flag >100): #Problem with the connection
 		print("There is a problem with the connection")
 		flag=0
@@ -112,6 +138,26 @@ while True:
 
 	    dt = time.time() - timer
 	    timer = time.time()
+
+
+	    ax, ay, az = myAccel_data.values()
+
+
+	    #print("accX: " + str(ax))
+	    vx = (ax * dt) + vx
+	    #print("vx: " + str(vx))
+
+	    #print("accY: " + str(ay))
+	    vy = (ay * dt) + vy
+	    #print("vy: " + str(vy))
+
+	    #print("accZ: " + str(az))
+	    vz = (az * dt) + vz
+	    #print("vz: " + str(vz))
+
+	    vnet = abs(math.sqrt(((vx)**2) + ((vy)**2) + ((vz)**2)))
+	    #print("vnet: " + str(vnet))
+
 
 	    if (RestrictPitch):
 	        roll = math.atan2(accY,accZ) * radToDeg
@@ -163,10 +209,13 @@ while True:
 	    if ((gyroYAngle < -180) or (gyroYAngle > 180)):
 	        gyroYAngle = kalAngleY
 
-	    print("Angle X: " + str(kalAngleX)+"   " +"Angle Y: " + str(kalAngleY))
+	    #print("Angle X: " + str(kalAngleX))
 	    #print(str(roll)+"  "+str(gyroXAngle)+"  "+str(compAngleX)+"  "+str(kalAngleX)+"  "+str(pitch)+"  "+str(gyroYAngle)+"  "+str(compAngleY)+"  "+str(kalAngleY))
 	    #angleXFinal = kalAngleX
 	    time.sleep(0.005)
 
 	except Exception as exc:
 		flag += 1
+
+angleXFinal = round(kalAngleX - kalAngleStart)
+velocityMagnitudeFinal = round(vnet)
