@@ -15,8 +15,8 @@ This is the top half of the sphere when assembling. This will contain the pieces
 
 ### Bottom Circle:
 <p float="left">
-  <img src="media/BottomCircle.png" height="325">
-  <img src="media/NutSlot.png" height="325">
+  <img src="media/BottomCircle.png" height="350">
+  <img src="media/NutSlot.png" height="350">
 </p>
 
 This is the bottom half of the sphere when assembling. This will contain the battery and power booster. The bottom ovalish extruded piece is what will hold the battery it has been made to match the shape with a bit of padding. The piece to the side of that is the holder of the power booster it has been made so it is at an angle so it saves space by optimizing on the curved shape of a sphere. The right image is an extrusion along the inside of the capsule walls it forms a correlating slot that will direct the screw into a gap where we can slide the nut into and screw the capsule together. 
