@@ -11,14 +11,14 @@ This is the top half of the sphere when assembling. This will contain the pieces
 </details>
 
 
-<img align="right" src="media/ScrewSlot.png" width="150">
+<img src="media/ScrewSlot.png" width="150">
 <details>
 <summary>Description</summary>
 This displays the slot that the screw will insert in and go threw to the other half of the sphere and screw the together. This is drilled into the sphere so there is nothing perturding from the spherical shape.
 </details>
 
 ### Bottom Circle
-<img align="right" src="media/BottomCircle.png" width="140">
+<img src="media/BottomCircle.png" width="140">
                                                                                                              
 <details>
 <summary>Description</summary>
