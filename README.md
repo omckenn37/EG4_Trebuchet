@@ -1,6 +1,6 @@
 # EG4_Trebuchet
 Trebuchet. Up the reds
-|[CAD](https://github.com/)|[Code](https://github.com/)|
+|[CAD](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#cad)|[Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)|
 |---|---|
 ## CAD
 ### Top Circle
