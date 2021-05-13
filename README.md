@@ -3,7 +3,7 @@ Trebuchet. Up the reds
 |[CAD](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#cad)|[Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)|
 |---|---|
 ## CAD
-### Top Circle
+### Top Circle:
 <p float="left">
   <img src="media/TopCircle.png" Height="325">
   <img src="media/ScrewSlot.png" height="325">
@@ -13,7 +13,7 @@ Trebuchet. Up the reds
 This is the top half of the sphere when assembling. This will contain the pieces that supports the raspberry pi, altimeter, and gyro/accelerometer. The three rectangular prisms are pieces we converted to laser cut peices so we can try to save as much material as we can. All those pieces will be held in place by standoffs and at the bottom screwed in directly into the sphere structure. The right image the slot that the screw will insert in and go threw to the other half of the sphere and screw the together. This is drilled into the sphere so there is nothing perturding from the spherical shape.
 
 
-### Bottom Circle
+### Bottom Circle:
 <p float="left">
   <img src="media/BottomCircle.png" height="325">
   <img src="media/NutSlot.png" height="325">
@@ -25,7 +25,7 @@ This is the bottom half of the sphere when assembling. This will contain the bat
 
 
 
-### Assembly
+### Assembly:
 <p float="left">
   <img src="media/AssemblyWithoutTopCircle.png" Height="275">
   <img src="media/AssemblyWithoutBottomCircle.png" height="275">
