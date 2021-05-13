@@ -4,18 +4,15 @@ Trebuchet. Up the reds
 |---|---|
 ## CAD
 ### Top Circle
-<img src="media/TopCircle.png" width="300">
-<details>
-<summary>Description</summary>
-This is the top half of the sphere when assembling. This will contain the pieces that supports the raspberry pi, altimeter, and gyro/accelerometer. The three rectangular prisms are pieces we converted to laser cut peices so we can try to save as much material as we can. All those pieces will be held in place by standoffs and at the bottom screwed in directly into the sphere structure.
-</details>
+<p float="left">
+  <img src="media/TopCircle.png" Height="325">
+  <img src="media/ScrewSlot.png" height="325">
+
+</p>
 
 
-<img src="media/ScrewSlot.png" width="300">
-<details>
-<summary>Description</summary>
-This displays the slot that the screw will insert in and go threw to the other half of the sphere and screw the together. This is drilled into the sphere so there is nothing perturding from the spherical shape.
-</details>
+This is the top half of the sphere when assembling. This will contain the pieces that supports the raspberry pi, altimeter, and gyro/accelerometer. The three rectangular prisms are pieces we converted to laser cut peices so we can try to save as much material as we can. All those pieces will be held in place by standoffs and at the bottom screwed in directly into the sphere structure. The right image the slot that the screw will insert in and go threw to the other half of the sphere and screw the together. This is drilled into the sphere so there is nothing perturding from the spherical shape.
+
 
 ### Bottom Circle
 <img src="media/BottomCircle.png" width="300">
