@@ -7,7 +7,6 @@ Trebuchet. Up the reds
 <p float="left">
   <img src="media/TopCircle.png" Height="325">
   <img src="media/ScrewSlot.png" height="325">
-
 </p>
 
 
@@ -15,18 +14,13 @@ This is the top half of the sphere when assembling. This will contain the pieces
 
 
 ### Bottom Circle
-<img src="media/BottomCircle.png" width="300">
-                                                                                                             
-<details>
-<summary>Description</summary>
-This is the bottom half of the sphere when assembling. This will contain the battery and power booster. The bottom ovalish extruded piece is what will hold the battery it has been made to match the shape with a bit of padding. The piece to the side of that is the holder of the power booster it has been made so it is at an angle so it saves space by optimizing on the curved shape of a sphere.  
-</details>
+<p float="left">
+  <img src="media/BottomCircle.png" height="325">
+  <img src="media/NutSlot.png" height="325">
+</p>
 
-<img src="media/NutSlot.png" width="300">
-<details>
-<summary>Description</summary>
-This is a aspect that is ingrained inside along the capsule walls it pertrudes off to form an shape that will direct the screw into a gap where we can slide the nut into. And screw the capsule together. 
-</details>
+This is the bottom half of the sphere when assembling. This will contain the battery and power booster. The bottom ovalish extruded piece is what will hold the battery it has been made to match the shape with a bit of padding. The piece to the side of that is the holder of the power booster it has been made so it is at an angle so it saves space by optimizing on the curved shape of a sphere. The right image is an extrusion along the inside of the capsule walls it forms a correlating slot that will direct the screw into a gap where we can slide the nut into and screw the capsule together. 
+
 
 
 
