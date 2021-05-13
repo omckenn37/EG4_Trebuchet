@@ -26,6 +26,10 @@ This is the bottom half of the sphere when assembling. This will contain the bat
 
 
 ### Assembly
-
+<p float="left">
+  <img src="media/AssemblyWithoutTopCircle.png" Height="275">
+  <img src="media/AssemblyWithoutBottomCircle.png" height="275">
+  <img src="media/FullAssembly.png" height="275">
+</p>
 ## Code
 
