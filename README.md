@@ -1,6 +1,6 @@
 # EG4_Trebuchet
 Trebuchet. Up the reds
-|[CAD](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#cad)|[Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)|[Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#conclusion)|
+|[CAD](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#cad)|[Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)|[Results](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#results)|
 |---|---|---|
 ## CAD
 ### Top Circle:
@@ -38,4 +38,4 @@ The first image displays the assembly without the top circle and displays the pi
 
 ## Code
 
-## Conclusion
+## Results
