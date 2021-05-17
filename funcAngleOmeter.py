@@ -88,7 +88,17 @@ if (RestrictPitch):
 else:
     roll = math.atan(accY/math.sqrt((accX**2)+(accZ**2))) * radToDeg
     pitch = math.atan2(-accX,accZ) * radToDeg
-print(roll)
+print("Roll: " + str(roll))
+print("Pitch: " + str(pitch))
+
+counter = 0
+kalAngleStart = 0
+
+if counter == 0:
+    kalAngleStart = roll
+    counter = counter + 1
+
+
 kalmanX.setAngle(roll)
 kalmanY.setAngle(pitch)
 gyroXAngle = roll;
@@ -107,9 +117,6 @@ vx = 0
 vy = 0
 vz = 0
 vnet = 0
-
-counter = 0
-kalAngleStart = 0
 
 while True:
 
@@ -210,8 +217,7 @@ while True:
 	        gyroYAngle = kalAngleY
 
 	    #print("Angle X: " + str(kalAngleX))
-	    #print(str(roll)+"  "+str(gyroXAngle)+"  "+str(compAngleX)+"  "+str(kalAngleX)+"  "+str(pitch)+"  "+str(gyroYAngle)+"  "+str(compAngleY)+"  "+str(kalAngleY))
-	    #angleXFinal = kalAngleX
+	    #print(str(roll)+"  "+str(gyroXAngle)+"  "+str(compAngleX)+"  "+str(kalAngleX)+"  "+str(pitch)+"  "+str(gyroYAngle)+"  "+str(compAngleY)+"  "+str(kalAngleY)
 	    time.sleep(0.005)
 
 	except Exception as exc:
