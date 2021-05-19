@@ -37,6 +37,21 @@ The first image displays the assembly without the top circle and displays the pi
 <br>
 ### Trebuchet
 Owen make your cad sections as 4 hastags 
+
+#### Basic Joints and Connection Pieces
+Originally, the plan for our joints and other various connection pieces was to make 4-6 3d printed joints that would join 2-3 pieces of alumminum extrusion together. We had originally decided to make the joints fully 3d printed as ABS material is quite stronger than acrylic. However, after testing the strength of a few laser cut joints, we realized they would probably be strong enough if we paired up 2 acrylic pieces on each joint and made sure to provide enough mounting holes. As you can see in the pictures above, there are two variations of laser cut joints; one takes a boomerang-like shape and is shaped in a 68 degree angle, while the other joint is meant to join two extrusion pieces at a 90 degree angle. To allow for maximum strength, we use two joint pieces for each connection, one on each side of the alumminum bars. 
+
+#### Bearing Joints
+These joints are the only 3d printed joints that we used on our trebuchet. They had to be 3d printed as we wouldn't have been able to properly integrate the bearing with laser cut pieces. These joints were built on a 44 degree and and have a circular cut out of them at the top to allow a bearing to be pushed in. 
+
+#### Finger Piece
+The finger piece is the component of the trebuchet that determines the launch angle of the payload. Essentially, the angle at which the release string is attached to the finger piece determines at what time during the launch the string releases, impacting the launch angle of the payload. Because of this, we felt that we should make this piece able to swivel along one axis so that during testing, we could adjust the release angle with ease. 
+
+#### Release Mechanism
+
+#### Full Trebuchet Body
+
+
 ### Lessons Learned: 
 First Off, Spheres are very annoying to work with because for every extrusion you have to make a plane since there is no flat surface that you can select on a sphere. This was our first project with Onshape so we did learn some new functions that we didn't know. I have used a lot of circular patterns and mirrors in this assignment and how to use the in sketch version which does not bring up a menu it creates pop-ups similar to a smart dimension. A cool feature we discovered is the app store that we never really noticed: the App Store, although we haven't used it much and a lot of the programs aren't free, there do seem to be some possible programs that can render your CAD to get better images for documentation and also programs similar to SolidWorks stress test. Also, we learned how to make the drawings used to laser cut parts. Another thing I learned is using a bit of trigonometry to get chamfers to be at an angle you desire.
 
