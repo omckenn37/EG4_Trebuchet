@@ -45,9 +45,10 @@ Originally, the plan for our joints and other various connection pieces was to m
 These joints are the only 3d printed joints that we used on our trebuchet. They had to be 3d printed as we wouldn't have been able to properly integrate the bearing with laser cut pieces. These joints were built on a 44 degree and and have a circular cut out of them at the top to allow a bearing to be pushed in. 
 
 #### Finger Piece
-The finger piece is the component of the trebuchet that determines the launch angle of the payload. Essentially, the angle at which the release string is attached to the finger piece determines at what time during the launch the string releases, impacting the launch angle of the payload. Because of this, we felt that we should make this piece able to swivel along one axis so that during testing, we could adjust the release angle with ease. 
+The finger piece is the component of the trebuchet that determines the launch angle of the payload. Essentially, the angle at which the release string is attached to the finger piece determines at what time during the launch the string releases, impacting the launch angle of the payload. Because of this, we felt that we should make this piece able to swivel along one axis so that during testing, we could adjust the release angle with ease. The metal finger is able to swivel roughly 45 degrees, giving us plenty of room for adjustments. 
 
 #### Release Mechanism
+The release mechanism is comprised of 3 3D printed linkages, a metal rod, and a servo. To set up the launch mechanism, we will pull astring around the mtal rod and connect it permanantly to the other side of the trebuchet. When the servo rotates, the metal rod is pulled out which creates space for the string to release. Additionally, we will add a simple raspberry pi control box that will allow us to control the servo remotely, meaning we can hook up a launch button to our flask site.
 
 #### Full Trebuchet Body
 
