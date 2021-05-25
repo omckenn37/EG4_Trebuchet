@@ -39,12 +39,32 @@ The first image displays the assembly without the top circle and displays the pi
 Owen make your cad sections as 4 hastags 
 
 #### Basic Joints and Connection Pieces
+
+<p float="left">
+  <img src="media/oldjointpic.png" height="300">
+  <img src="media/bracket68pic.png" height="300">
+</p>
+
 Originally, the plan for our joints and other various connection pieces was to make 4-6 3d printed joints that would join 2-3 pieces of alumminum extrusion together. We had originally decided to make the joints fully 3d printed as ABS material is quite stronger than acrylic. However, after testing the strength of a few laser cut joints, we realized they would probably be strong enough if we paired up 2 acrylic pieces on each joint and made sure to provide enough mounting holes. As you can see in the pictures above, there are two variations of laser cut joints; one takes a boomerang-like shape and is shaped in a 68 degree angle, while the other joint is meant to join two extrusion pieces at a 90 degree angle. To allow for maximum strength, we use two joint pieces for each connection, one on each side of the alumminum bars. 
 
 #### Bearing Joints
+
+<p float="left">
+  <img src="media/bearingjointpic.png" height="300">
+  <img src="media/bearingjointpic2.png" height="300">
+</p>
+
 These joints are the only 3d printed joints that we used on our trebuchet. They had to be 3d printed as we wouldn't have been able to properly integrate the bearing with laser cut pieces. These joints were built on a 44 degree and and have a circular cut out of them at the top to allow a bearing to be pushed in. 
 
 #### Finger Piece
+
+<p float="left">
+  <img src="media/fingerpiecepic.png" height="320">
+  <img src="media/fingerswivelpic.png" height="320">
+  <img src="media/fingerassemblypic1.png" height="320">
+  <img src="media/fingerassemblypic2.png" height="320">
+</p>
+
 The finger piece is the component of the trebuchet that determines the launch angle of the payload. Essentially, the angle at which the release string is attached to the finger piece determines at what time during the launch the string releases, impacting the launch angle of the payload. Because of this, we felt that we should make this piece able to swivel along one axis so that during testing, we could adjust the release angle with ease. The metal finger is able to swivel roughly 45 degrees, giving us plenty of room for adjustments. 
 
 #### Release Mechanism
