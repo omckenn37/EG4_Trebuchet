@@ -41,8 +41,10 @@ Owen make your cad sections as 4 hastags
 #### Basic Joints and Connection Pieces
 
 <p float="left">
-  <img src="media/oldjointpic.png" height="300">
-  <img src="media/bracket68pic.png" height="300">
+  <img src="media/oldjointpic.png" height="200">
+  <img src="media/bracket68pic.png" height="200">
+  <img src="media/twowaybracketpic.png" height="200">
+  <img src="media/middlebracketpic.png" height="200">
 </p>
 
 Originally, the plan for our joints and other various connection pieces was to make 4-6 3d printed joints that would join 2-3 pieces of alumminum extrusion together. We had originally decided to make the joints fully 3d printed as ABS material is quite stronger than acrylic. However, after testing the strength of a few laser cut joints, we realized they would probably be strong enough if we paired up 2 acrylic pieces on each joint and made sure to provide enough mounting holes. As you can see in the pictures above, there are two variations of laser cut joints; one takes a boomerang-like shape and is shaped in a 68 degree angle, while the other joint is meant to join two extrusion pieces at a 90 degree angle. To allow for maximum strength, we use two joint pieces for each connection, one on each side of the alumminum bars. 
