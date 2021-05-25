@@ -1,7 +1,7 @@
 # EG4_Trebuchet
 Trebuchet. Up the reds
-|[CAD](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#cad)|[Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)|[Results](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#results)|
-|---|---|---|
+|[CAD](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#cad)|[Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)|[Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#assembly)|[Results](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#results)|
+|---|---|---|---|
 ## CAD
 ### Capsule
 #### Top Circle:
@@ -57,5 +57,7 @@ The release mechanism is comprised of 3 3D printed linkages, a metal rod, and a 
 First Off, Spheres are very annoying to work with because for every extrusion you have to make a plane since there is no flat surface that you can select on a sphere. This was our first project with Onshape so we did learn some new functions that we didn't know. I have used a lot of circular patterns and mirrors in this assignment and how to use the in sketch version which does not bring up a menu it creates pop-ups similar to a smart dimension. A cool feature we discovered is the app store that we never really noticed: the App Store, although we haven't used it much and a lot of the programs aren't free, there do seem to be some possible programs that can render your CAD to get better images for documentation and also programs similar to SolidWorks stress test. Also, we learned how to make the drawings used to laser cut parts. Another thing I learned is using a bit of trigonometry to get chamfers to be at an angle you desire.
 
 ## Code
+
+## Assembly
 
 ## Results
