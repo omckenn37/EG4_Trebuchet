@@ -103,7 +103,7 @@ The axle cap allows the 20x20mm extrusion to rotate freely inside the main swive
 
 ##### 20x20mm Alumminum Extrusion
 
-Our main frame of the trebuchet was built using 20x20mm alumminum extrusion that we found in the back of the lab. Originally, we planned on buying wooden planks but upon finding these we figured they were a much better option considering they were significantly smaller yet very strong. 
+Our main frame of the trebuchet was built using 20x20mm alumminum extrusion that we found in the back of the lab. Originally, we planned on buying wooden planks but upon finding these we figured they were a much better option considering they were significantly smaller yet very strong. To construct our frame, we cut this extrusion into 1100mm, 800mm, 600mm, 400mm, and 207mm lengths. 
 
 ##### Nuts & Bolts
 
