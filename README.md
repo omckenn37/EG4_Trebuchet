@@ -115,13 +115,12 @@ To make sure that our pivot arm had smooth movement, we decided to incorporate b
 
 ##### Steel Rod
 
-We used 5mm steel rod for the finger as well as to hold our counterweight string as it had a small diameter and could hold tremedous weight. 
+We used 5mm steel rod for the finger as well as to hold our counterweight string as it had a small diameter and could hold quite a bit of weight. 
 
 #### Full Trebuchet Assembly
 
 The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The counterweight and payload pouch are not included in the CAD as they are very difficult to model, but they would connect to the finger assembly and the counterweight piece. 
 
----
 
 
 
