@@ -61,10 +61,10 @@ These joints are the only 3d printed joints that we used on our trebuchet. They 
 #### Finger Piece
 
 <p float="left">
-  <img src="media/fingerpiecepic.png" height="320">
-  <img src="media/fingerswivelpic.png" height="320">
-  <img src="media/fingerassemblypic1.png" height="320">
-  <img src="media/fingerassemblypic2.png" height="320">
+  <img src="media/fingerpiecepic.png" height="330">
+  <img src="media/fingerswivelpic.png" height="330">
+  <img src="media/fingerassemblypic1.png" height="330">
+  <img src="media/fingerassemblypic2.png" height="330">
 </p>
 
 The finger piece is the component of the trebuchet that determines the launch angle of the payload. Essentially, the angle at which the release string is attached to the finger piece determines at what time during the launch the string releases, impacting the launch angle of the payload. Because of this, we felt that we should make this piece able to swivel along one axis so that during testing, we could adjust the release angle with ease. The metal finger is able to swivel roughly 45 degrees, giving us plenty of room for adjustments. 
@@ -79,6 +79,8 @@ The release mechanism is comprised of 3 3D printed linkages, a metal rod, and a 
 The axle cap allows the 20x20mm extrusion to rotate freely inside the main swivel bearings. The piece connects to the extrusion with one screw and essentially converts the cube shape of the beam into a circular shape that fits into the bearing, allowing the beam to rotate inside the bearing. 
 
 #### Full Trebuchet Body
+
+The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The counterweight and payload pouch are not included in the CAD as they are very difficult to model, but they would connect to either end of the central beam. 
 
 ---
 
