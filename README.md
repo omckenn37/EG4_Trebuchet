@@ -61,10 +61,10 @@ These joints are the only 3d printed joints that we used on our trebuchet. They 
 #### Finger Piece
 
 <p float="left">
-  <img src="media/fingerpiecepic.png" height="330">
-  <img src="media/fingerswivelpic.png" height="330">
-  <img src="media/fingerassemblypic1.png" height="330">
-  <img src="media/fingerassemblypic2.png" height="330">
+  <img src="media/fingerpiecepic.png" height="340">
+  <img src="media/fingerswivelpic.png" height="340">
+  <img src="media/fingerassemblypic1.png" height="340">
+  <img src="media/fingerassemblypic2.png" height="340">
 </p>
 
 The finger piece is the component of the trebuchet that determines the launch angle of the payload. Essentially, the angle at which the release string is attached to the finger piece determines at what time during the launch the string releases, impacting the launch angle of the payload. Because of this, we felt that we should make this piece able to swivel along one axis so that during testing, we could adjust the release angle with ease. The metal finger is able to swivel roughly 45 degrees, giving us plenty of room for adjustments. 
