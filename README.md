@@ -3,7 +3,7 @@ Trebuchet. Up the reds
 |[CAD](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#cad)|[Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)|[Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#physical-assembly)|[Results](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#results)|
 |---|---|---|---|
 
-- [CAD](https://github.com/omckenn37/EG4_Trebuchet#cad)
+- [CAD](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#cad)
   * [Sub-heading](#sub-heading)
     + [Sub-sub-heading](#sub-sub-heading)
 - [Heading](#heading-1)
