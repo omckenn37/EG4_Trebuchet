@@ -2,6 +2,19 @@
 Trebuchet. Up the reds
 |[CAD](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#cad)|[Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)|[Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#physical-assembly)|[Results](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#results)|
 |---|---|---|---|
+
+- [CAD](https://github.com/omckenn37/EG4_Trebuchet#cad)
+  * [Sub-heading](#sub-heading)
+    + [Sub-sub-heading](#sub-sub-heading)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
+
+<!-- toc -->
+
 ## CAD
 ### Capsule
 #### Top Circle:
