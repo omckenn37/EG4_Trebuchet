@@ -7,6 +7,7 @@ Trebuchet. Up the reds
   * [Capsule](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#capsule)
     + [Top Shere](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#top-sphere)
     + [Bottom Sphere](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#bottom-sphere)
+    + [Components](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#components)
     + [Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#assembly)
     + [Reflections](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#reflections)
   * [Trebuchet](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#trebuchet)
