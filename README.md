@@ -140,7 +140,14 @@ We used 5mm steel rod for the finger as well as to hold our counterweight string
 
 #### Full Trebuchet Assembly
 
+<img align="right" src="media/trebuchetannotatedpic.png" width="600">
+
 The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The counterweight and payload pouch are not included in the CAD as they are very difficult to model, but they would connect to the finger assembly and the counterweight piece. 
+The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The counterweight and payload pouch are not included in the CAD as they are very difficult to model, but they would connect to the finger assembly and the counterweight piece. 
+The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The counterweight and payload pouch are not included in the CAD as they are very difficult to model, but they would connect to the finger assembly and the counterweight piece. 
+The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The counterweight and payload pouch are not included in the CAD as they are very difficult to model, but they would connect to the finger assembly and the counterweight piece. 
+The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. 
+
 
 <p float="left">
   <img src="media/fulltrebuchetpic1.png" height="260">
