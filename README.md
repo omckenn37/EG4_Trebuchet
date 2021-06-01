@@ -60,7 +60,7 @@ We used a lot of Female-Male Standoffs to setup the pi and gyro because it allow
   <img src="media/AssemblyWithoutTopCircle.png" Height="225">
   <img src="media/AssemblyWithoutBottomCircle.png" Height="225">
   <img src="media/FullAssembly.png" Height="225">
-  <img src="media/Assembly_Labeled_picture.PNG" Height="225">
+  <img src="media/Assembly_Labeled_picture.png" Height="225">
 </p>
 
 The first image displays the assembly without the top circle and displays the pi components floating in the air and you can see the screws going into their slots and can see the battery and power booster screwed in under them. The second picture displays the assembly without the bottom circle and shows the screwed-in battery and power booster while the pi components are floating and you can see the floating nuts and the screw extruding from its slot. Lastly, the final image is the completed assembly you can see the entire assembly we extruded the sides to make an almost Wiffle-ball-like shape so that it saves as much material as possible and we also added the screw and nut portion without messing with the sphere shape.
