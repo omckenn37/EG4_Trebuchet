@@ -165,5 +165,6 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 ## Physical Assembly
 ### Capsule
 <img src="media/Top_Circle_Printed.png" height="300">
-This is the printed version
+This is the printed version of the Top Sphere. You can see the laser cut pieces that are a nice, bright pink that are held together by standoffs. This is the first part we've 3D printed; It has overall gone well their was a slght hiccup in the assembly were some of the plastic was damaged but nothing we couldnt fix.
+
 ## Results
