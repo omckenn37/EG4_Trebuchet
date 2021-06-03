@@ -167,7 +167,7 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The counterweight and payload pouch are not included in the CAD as they are very difficult to model, but they would connect to the finger assembly and the counterweight piece. 
 The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The counterweight and payload pouch are not included in the CAD as they are very difficult to model, but they would connect to the finger assembly and the counterweight piece. 
 The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The counterweight and payload pouch are not included in the CAD as they are very difficult to model, but they would connect to the finger assembly and the counterweight piece. 
-The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. 
+The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. The final CAD assembly of the trebuchet combines all of the listed components into one seamless assembly. 
 
 
 <p float="left">
