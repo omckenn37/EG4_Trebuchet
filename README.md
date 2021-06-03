@@ -18,6 +18,7 @@ Trebuchet. Up the reds
     + [Axle Cap](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#axle-cap)
     + [Other Components](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#other-components)
     + [Full Trebuchet Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#full-trebuchet-assembly)
+- [Trebuchet Simulation](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#trebuchet-simulation)
 - [Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)
 - [Physical Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#physical-assembly)
 - [Results](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#results)
@@ -159,6 +160,15 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 
 
 ---
+
+## Trebuchet Simulation
+
+In order to figure out the most optimized design for our trebuchet, we used on online trebuchet simulation called [Virtual Trebuchet](http://www.virtualtrebuchet.com/). This simulation allows you to input numerous trebuchet parameters including sling length, arm length, launch height, and much more. Once those parameters are filled, you are able to run the simulation and see the trebuchet actually launch. Additionally, the simulation provides an estimate for payload displacement and initial launch velocity. 
+Here's a picture of what the simulation looks like with all the somewhat correct parameters:
+
+<img src="media/virtualtrebuchetpic1.png" height="400">
+
+If you want to try virtually launching our trebuchet in this simulation, click [this link](http://www.virtualtrebuchet.com/#simulator_%24id=003&LengthArmShort=.18&LengthArmLong=.9&LengthSling=.9&LengthWeight=.5&HeightOfPivot=.812&MassWeight=20&MassProjectile=0.2&MassArm=.432&ReleaseAngle=40&uniformArm=true&ProjectileDiameter=0.107&InertiaArm=0.04&PivotToArmCG=0.36&InertiaWeight=1&CalculateDrag=true&WindSpeed=0&projectile=custom&customProjectile=true&units=metric&advancedMode=true&playSpeed=1&customPlaySpeed=0.15&length=m&mass=kg&angle=deg&velocity=m%2Fs&inertia=kg%C2%B7m%C2%B2&time=s&=&distance=37.85031800461218). It should open up a new simulation with the parameters of our trebuchet.
 
 ## Code
 
