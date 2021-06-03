@@ -184,6 +184,43 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 
 ## Code
 
+```python
+def MPU_Init():
+	#write to sample rate register
+	bus.write_byte_data(DeviceAddress, SMPLRT_DIV, 7)
+
+	#Write to power management register
+	bus.write_byte_data(DeviceAddress, PWR_MGMT_1, 1)
+
+	#Write to Configuration register
+	#Setting DLPF (last three bit of 0X1A to 6 i.e '110' It removes the noise due to vibration.) https://ulrichbuschbaum.wordpress.com/2015/01/18/using-the-mpu6050s-dlpf/
+	bus.write_byte_data(DeviceAddress, CONFIG, int('0000110',2))
+
+	#Write to Gyro configuration register
+	bus.write_byte_data(DeviceAddress, GYRO_CONFIG, 24)
+
+	#Write to interrupt enable register
+	bus.write_byte_data(DeviceAddress, INT_ENABLE, 1)
+
+
+def read_raw_data(addr):
+	#Accelero and Gyro value are 16-bit
+        high = bus.read_byte_data(DeviceAddress, addr)
+        low = bus.read_byte_data(DeviceAddress, addr+1)
+
+        #concatenate higher and lower value
+        value = ((high << 8) | low)
+
+        #to get signed value from mpu6050
+        if(value > 32768):
+                value = value - 65536
+        return value
+
+
+bus = smbus.SMBus(1) 	# or bus = smbus.SMBus(0) for older version boards
+DeviceAddress = 0x68   # MPU6050 device address
+```
+
 ### 
 
 ## Physical Assembly
