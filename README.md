@@ -3,6 +3,9 @@ Trebuchet. Up the reds
 
 ## Table of Contents
 
+- [Trebuchet Design](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#trebuchet-design)
+  * [Ratios](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#ratios)
+  * [Simulation](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#simulation)
 - [CAD](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#cad)
   * [Capsule](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#capsule)
     + [Top Shere](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#top-sphere)
@@ -22,6 +25,23 @@ Trebuchet. Up the reds
 - [Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)
 - [Physical Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#physical-assembly)
 - [Results](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#results)
+
+## Trebuchet Design
+
+### Ratios
+
+The two most important ratios for trebuchet design are the arm ratio and the weight ratio. To optimize launch distance, the ratio between the short arm and the long arm must be 5:1. For our trebuchet, we opted for a long arm of 900mm and a short arm of 180mm, giving us this 5:1 ratio. Additionally, the ratio between the payload and the counterweight must be roughly 133:1. This means that if our launch capsule was 1 pound, our counterweight would have to be 133 pounds. During our assembly phase of the capsule, we found that the capsule, when loaded with all the proper components, weighed about 220 grams. This means that our counterweight would have to weigh somewhere between 60 and 70 pounds as ```220 * 133 = 29260 grams or ~64.5 pounds```. We decided to use a counterweight with a weight of 60 pounds because we felt like this would still give us decent launch distance without physically straining our trebuchet structure.
+
+### Simulation
+
+In order to figure out the most optimized design for our trebuchet, we used on online trebuchet simulation called [Virtual Trebuchet](http://www.virtualtrebuchet.com/). This simulation allows you to input numerous trebuchet parameters including sling length, arm length, launch height, and much more. Once those parameters are filled, you are able to run the simulation and see the trebuchet actually launch. Additionally, the simulation provides an estimate for payload displacement and initial launch velocity. 
+Here's a picture of what the simulation looks like with all the somewhat correct parameters:
+
+<img src="media/virtualtrebuchetpic1.png" height="400">
+
+If you want to try virtually launching our trebuchet in this simulation, click [this link](http://www.virtualtrebuchet.com/#simulator_%24id=003&LengthArmShort=.18&LengthArmLong=.9&LengthSling=.9&LengthWeight=.5&HeightOfPivot=.812&MassWeight=20&MassProjectile=0.2&MassArm=.432&ReleaseAngle=40&uniformArm=true&ProjectileDiameter=0.107&InertiaArm=0.04&PivotToArmCG=0.36&InertiaWeight=1&CalculateDrag=true&WindSpeed=0&projectile=custom&customProjectile=true&units=metric&advancedMode=true&playSpeed=1&customPlaySpeed=0.15&length=m&mass=kg&angle=deg&velocity=m%2Fs&inertia=kg%C2%B7m%C2%B2&time=s&=&distance=37.85031800461218). It should open up a new simulation with the parameters of our trebuchet.
+
+This online simulation was super useful because it helped us tune all of the various values without having to do real world testing which saved us a lot of time and effort. Many trebuchet parameters such as sling length or counterweight length don't have super standard ratios, meaning they are highly dependent on the design of the trebuchet. This makes these values hard to predict but easy to tune and figure out in a sumulation like this. 
 
 ## CAD
 ### Capsule
@@ -161,14 +181,6 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 
 ---
 
-## Trebuchet Simulation
-
-In order to figure out the most optimized design for our trebuchet, we used on online trebuchet simulation called [Virtual Trebuchet](http://www.virtualtrebuchet.com/). This simulation allows you to input numerous trebuchet parameters including sling length, arm length, launch height, and much more. Once those parameters are filled, you are able to run the simulation and see the trebuchet actually launch. Additionally, the simulation provides an estimate for payload displacement and initial launch velocity. 
-Here's a picture of what the simulation looks like with all the somewhat correct parameters:
-
-<img src="media/virtualtrebuchetpic1.png" height="400">
-
-If you want to try virtually launching our trebuchet in this simulation, click [this link](http://www.virtualtrebuchet.com/#simulator_%24id=003&LengthArmShort=.18&LengthArmLong=.9&LengthSling=.9&LengthWeight=.5&HeightOfPivot=.812&MassWeight=20&MassProjectile=0.2&MassArm=.432&ReleaseAngle=40&uniformArm=true&ProjectileDiameter=0.107&InertiaArm=0.04&PivotToArmCG=0.36&InertiaWeight=1&CalculateDrag=true&WindSpeed=0&projectile=custom&customProjectile=true&units=metric&advancedMode=true&playSpeed=1&customPlaySpeed=0.15&length=m&mass=kg&angle=deg&velocity=m%2Fs&inertia=kg%C2%B7m%C2%B2&time=s&=&distance=37.85031800461218). It should open up a new simulation with the parameters of our trebuchet.
 
 ## Code
 
