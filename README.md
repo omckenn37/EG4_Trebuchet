@@ -192,89 +192,248 @@ This Code as seen in the dropdown below is the code for starting the trebuchets 
 
 **Python** *Code*
 ```python
-#imports 
+#Connections
+#MPU6050 - Raspberry pi
+#VCC - 5V  (2 or 4 Board)
+#GND - GND (6 - Board)
+#SCL - SCL (5 - Board)
+#SDA - SDA (3 - Board)
 
+
+from Kalman import KalmanAngle
+import smbus			#import SMBus module of I2C
 import time
+import math
 
-import board
-import busio
+from mpu6050 import mpu6050
+myAccel = mpu6050(0x68)
+myAccel_data = myAccel.get_accel_data()
 
-i2c = busio.I2C(board.SCL, board.SDA)
+kalmanX = KalmanAngle()
+kalmanY = KalmanAngle()
 
-import Adafruit_LSM303
-
-
-
-#Altimeter set up
-import adafruit_mpl3115a2
-altimeter = adafruit_mpl3115a2.MPL3115A2(i2c)
-# maybe set up the pascal thing from the example? if it is inaccurate
-
-
-#Accelerometer set up
-RST = 24
-accelerometer = Adafruit_LSM303.LSM303() # accelerometer setup
-
-
-# word to type in to launch
-startPhrase = str("Lukas")
-startInput = input("Enter the word " + str(startPhrase) + ": ")
-
-
-
-#Countdown Timer
-def runCountdownTimer():
-        for i in range (1,5):
-                num = 6 - i
-                print("Launching in " + str(num))
-                time.sleep(1)
-        print("Launching in 1")
-        time.sleep(1)
-        print("Countdown Done")
+RestrictPitch = True	#Comment out to restrict roll to ±90deg instead - please read: http://www.freescale.com/files/sensors/doc/app_note/AN3461.pdf
+radToDeg = 57.2957786
+kalAngleX = 0
+kalAngleY = 0
+#some MPU6050 Registers and their Address
+PWR_MGMT_1   = 0x6B
+SMPLRT_DIV   = 0x19
+CONFIG       = 0x1A
+GYRO_CONFIG  = 0x1B
+INT_ENABLE   = 0x38
+ACCEL_XOUT_H = 0x3B
+ACCEL_YOUT_H = 0x3D
+ACCEL_ZOUT_H = 0x3F
+GYRO_XOUT_H  = 0x43
+GYRO_YOUT_H  = 0x45
+GYRO_ZOUT_H  = 0x47
 
 
-#Actually Launch
-def Launch():
+#Read the gyro and acceleromater values from MPU6050
+def MPU_Init():
+	#write to sample rate register
+	bus.write_byte_data(DeviceAddress, SMPLRT_DIV, 7)
 
-	print("Launch Initiated")	
+	#Write to power management register
+	bus.write_byte_data(DeviceAddress, PWR_MGMT_1, 1)
 
-	# ADD THE ACTUAL LAUNCH CODE HERE
+	#Write to Configuration register
+	#Setting DLPF (last three bit of 0X1A to 6 i.e '110' It removes the noise due to vibration.) https://ulrichbuschbaum.wordpress.com/2015/01/18/using-the-mpu6050s-dlpf/
+	bus.write_byte_data(DeviceAddress, CONFIG, int('0000110',2))
 
-	print("Launch Done")
+	#Write to Gyro configuration register
+	bus.write_byte_data(DeviceAddress, GYRO_CONFIG, 24)
 
-#Wind Up 
-def windUp():
-
-	launchTrackingDelay = 1
-
-	print("Wind Up Running")
-	time.sleep(launchTrackingDelay)
-	print("Wind Up Done")
-
-def inFreefall():
-	
-	print("Freefall Running")
-
-	#take readings
-
-	#if no longer in air
-	print("Freefall Done")
+	#Write to interrupt enable register
+	bus.write_byte_data(DeviceAddress, INT_ENABLE, 1)
 
 
-# If launched initiated
-if startInput == startPhrase:
-	runCountdownTimer()
-	Launch()
-	windUp()
-	
+def read_raw_data(addr):
+	#Accelero and Gyro value are 16-bit
+        high = bus.read_byte_data(DeviceAddress, addr)
+        low = bus.read_byte_data(DeviceAddress, addr+1)
+
+        #concatenate higher and lower value
+        value = ((high << 8) | low)
+
+        #to get signed value from mpu6050
+        if(value > 32768):
+                value = value - 65536
+        return value
 
 
-# If launch phrase is wrong
-if startInput != startPhrase:
-	print("invalid launch phrase, please type: " + str(startPhrase))
+bus = smbus.SMBus(1) 	# or bus = smbus.SMBus(0) for older version boards
+DeviceAddress = 0x68   # MPU6050 device address
+
+MPU_Init()
+
+time.sleep(1)
+#Read Accelerometer raw value
+accX = read_raw_data(ACCEL_XOUT_H)
+accY = read_raw_data(ACCEL_YOUT_H)
+accZ = read_raw_data(ACCEL_ZOUT_H)
+
+#print(accX,accY,accZ)
+#print(math.sqrt((accY**2)+(accZ**2)))
+if (RestrictPitch):
+    roll = math.atan2(accY,accZ) * radToDeg
+    pitch = math.atan(-accX/math.sqrt((accY**2)+(accZ**2))) * radToDeg
+else:
+    roll = math.atan(accY/math.sqrt((accX**2)+(accZ**2))) * radToDeg
+    pitch = math.atan2(-accX,accZ) * radToDeg
+print("Roll: " + str(roll))
+print("Pitch: " + str(pitch))
+
+counter = 0
+kalAngleStart = 0
+
+if counter == 0:
+    kalAngleStart = roll
+    counter = counter + 1
+
+
+kalmanX.setAngle(roll)
+kalmanY.setAngle(pitch)
+gyroXAngle = roll;
+gyroYAngle = pitch;
+compAngleX = roll;
+compAngleY = pitch;
+
+timer = time.time()
+flag = 0
+
+
+start_time = time.time()
+seconds = 1
+
+vx = 0
+vy = 0
+vz = 0
+vnet = 0
+
+while True:
+
+	current_time = time.time()
+	elapsed_time = current_time - start_time
+
+
+	if elapsed_time > seconds:
+		print("1 second")
+		break
+
+	if(flag >100): #Problem with the connection
+		print("There is a problem with the connection")
+		flag=0
+		continue
+	try:
+	    #Read Accelerometer raw value
+	    accX = read_raw_data(ACCEL_XOUT_H)
+	    accY = read_raw_data(ACCEL_YOUT_H)
+	    accZ = read_raw_data(ACCEL_ZOUT_H)
+
+	    #Read Gyroscope raw value
+	    gyroX = read_raw_data(GYRO_XOUT_H)
+	    gyroY = read_raw_data(GYRO_YOUT_H)
+	    gyroZ = read_raw_data(GYRO_ZOUT_H)
+
+	    dt = time.time() - timer
+	    timer = time.time()
+
+
+	    ax, ay, az = myAccel_data.values()
+
+
+	    #print("accX: " + str(ax))
+	    vx = (ax * dt) + vx
+	    #print("vx: " + str(vx))
+
+	    #print("accY: " + str(ay))
+	    vy = (ay * dt) + vy
+	    #print("vy: " + str(vy))
+
+	    #print("accZ: " + str(az))
+	    vz = (az * dt) + vz
+	    #print("vz: " + str(vz))
+
+	    vnet = abs(math.sqrt(((vx)**2) + ((vy)**2) + ((vz)**2)))
+	    #print("vnet: " + str(vnet))
+
+
+	    if (RestrictPitch):
+	        roll = math.atan2(accY,accZ) * radToDeg
+	        pitch = math.atan(-accX/math.sqrt((accY**2)+(accZ**2))) * radToDeg
+	    else:
+	        roll = math.atan(accY/math.sqrt((accX**2)+(accZ**2))) * radToDeg
+	        pitch = math.atan2(-accX,accZ) * radToDeg
+
+	    gyroXRate = gyroX/131
+	    gyroYRate = gyroY/131
+
+	    if (RestrictPitch):
+
+	        if((roll < -90 and kalAngleX >90) or (roll > 90 and kalAngleX < -90)):
+	            kalmanX.setAngle(roll)
+	            complAngleX = roll
+	            kalAngleX   = roll
+	            gyroXAngle  = roll
+	        else:
+	            kalAngleX = kalmanX.getAngle(roll,gyroXRate,dt)
+
+	        if(abs(kalAngleX)>90):
+	            gyroYRate  = -gyroYRate
+	            kalAngleY  = kalmanY.getAngle(pitch,gyroYRate,dt)
+	    else:
+
+	        if((pitch < -90 and kalAngleY >90) or (pitch > 90 and kalAngleY < -90)):
+	            kalmanY.setAngle(pitch)
+	            complAngleY = pitch
+	            kalAngleY   = pitch
+	            gyroYAngle  = pitch
+	        else:
+	            kalAngleY = kalmanY.getAngle(pitch,gyroYRate,dt)
+
+	        if(abs(kalAngleY)>90):
+	            gyroXRate  = -gyroXRate
+	            kalAngleX = kalmanX.getAngle(roll,gyroXRate,dt)
+
+		#angle = (rate of change of angle) * change in time
+	    gyroXAngle = gyroXRate * dt
+	    gyroYAngle = gyroYAngle * dt
+
+		#compAngle = constant * (old_compAngle + angle_obtained_from_gyro) + constant * angle_obtained from accelerometer
+	    compAngleX = 0.93 * (compAngleX + gyroXRate * dt) + 0.07 * roll
+	    compAngleY = 0.93 * (compAngleY + gyroYRate * dt) + 0.07 * pitch
+
+	    if ((gyroXAngle < -180) or (gyroXAngle > 180)):
+	        gyroXAngle = kalAngleX
+	    if ((gyroYAngle < -180) or (gyroYAngle > 180)):
+	        gyroYAngle = kalAngleY
+
+	    #print("Angle X: " + str(kalAngleX))
+	    #print(str(roll)+"  "+str(gyroXAngle)+"  "+str(compAngleX)+"  "+str(kalAngleX)+"  "+str(pitch)+"  "+str(gyroYAngle)+"  "+str(compAngleY)+"  "+str(kalAngleY)
+	    time.sleep(0.005)
+
+	except Exception as exc:
+		flag += 1
+
+angleXFinal = round(kalAngleX - kalAngleStart)
+velocityMagnitudeFinal = round(vnet)
 ```
 </details>
 
+### 
+
+<details>
+<summary>Code</summary>
+<!--All you need is a blank line-->
+
+**Python** *Code*
+```python
+
+
+```
+</details>
 
 ## Physical Assembly
 ### Capsule
