@@ -184,43 +184,94 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 
 ## Code
 
+<details open>
+<summary>Write Markdown!</summary>
+<!--All you need is a blank line-->
+
+**Python** *Code*
 ```python
-def MPU_Init():
-	#write to sample rate register
-	bus.write_byte_data(DeviceAddress, SMPLRT_DIV, 7)
+#imports 
 
-	#Write to power management register
-	bus.write_byte_data(DeviceAddress, PWR_MGMT_1, 1)
+import time
 
-	#Write to Configuration register
-	#Setting DLPF (last three bit of 0X1A to 6 i.e '110' It removes the noise due to vibration.) https://ulrichbuschbaum.wordpress.com/2015/01/18/using-the-mpu6050s-dlpf/
-	bus.write_byte_data(DeviceAddress, CONFIG, int('0000110',2))
+import board
+import busio
 
-	#Write to Gyro configuration register
-	bus.write_byte_data(DeviceAddress, GYRO_CONFIG, 24)
+i2c = busio.I2C(board.SCL, board.SDA)
 
-	#Write to interrupt enable register
-	bus.write_byte_data(DeviceAddress, INT_ENABLE, 1)
+import Adafruit_LSM303
 
 
-def read_raw_data(addr):
-	#Accelero and Gyro value are 16-bit
-        high = bus.read_byte_data(DeviceAddress, addr)
-        low = bus.read_byte_data(DeviceAddress, addr+1)
 
-        #concatenate higher and lower value
-        value = ((high << 8) | low)
-
-        #to get signed value from mpu6050
-        if(value > 32768):
-                value = value - 65536
-        return value
+#Altimeter set up
+import adafruit_mpl3115a2
+altimeter = adafruit_mpl3115a2.MPL3115A2(i2c)
+# maybe set up the pascal thing from the example? if it is inaccurate
 
 
-bus = smbus.SMBus(1) 	# or bus = smbus.SMBus(0) for older version boards
-DeviceAddress = 0x68   # MPU6050 device address
+#Accelerometer set up
+RST = 24
+accelerometer = Adafruit_LSM303.LSM303() # accelerometer setup
+
+
+# word to type in to launch
+startPhrase = str("Lukas")
+startInput = input("Enter the word " + str(startPhrase) + ": ")
+
+
+
+#Countdown Timer
+def runCountdownTimer():
+        for i in range (1,5):
+                num = 6 - i
+                print("Launching in " + str(num))
+                time.sleep(1)
+        print("Launching in 1")
+        time.sleep(1)
+        print("Countdown Done")
+
+
+#Actually Launch
+def Launch():
+
+	print("Launch Initiated")	
+
+	# ADD THE ACTUAL LAUNCH CODE HERE
+
+	print("Launch Done")
+
+#Wind Up 
+def windUp():
+
+	launchTrackingDelay = 1
+
+	print("Wind Up Running")
+	time.sleep(launchTrackingDelay)
+	print("Wind Up Done")
+
+def inFreefall():
+	
+	print("Freefall Running")
+
+	#take readings
+
+	#if no longer in air
+	print("Freefall Done")
+
+
+# If launched initiated
+if startInput == startPhrase:
+	runCountdownTimer()
+	Launch()
+	windUp()
+	
+
+
+# If launch phrase is wrong
+if startInput != startPhrase:
+	print("invalid launch phrase, please type: " + str(startPhrase))
 ```
-
+</details>
 ### 
 
 ## Physical Assembly
