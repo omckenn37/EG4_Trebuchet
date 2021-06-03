@@ -523,7 +523,27 @@ list-style-position: inside;
 </details>
 
 	
-### 
+### Get Angle Test
+
+<details>
+<summary>Code</summary>
+<!--All you need is a blank line-->
+
+**Python** *Code*
+```python	
+#from funcAngleOmeter import kalAngleX, kalAngleY, angleXFinal
+import funcAngleOmeter
+
+angle = funcAngleOmeter.angleXFinal
+velocity = funcAngleOmeter.velocityMagnitudeFinal
+
+
+print("Angle: " + str(angle))
+print("Velocity: " + str(velocity))
+	
+```
+</details>	
+	
 ## Physical Assembly
 ### Capsule
 <img src="media/Top_Circle_Printed.png" height="300">
