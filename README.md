@@ -186,7 +186,7 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 
 ### Trebuchet Code 1
 This Code as seen in the dropdown below is the code for starting the trebuchets launch and
-<details open>
+<details>
 <summary>Code</summary>
 <!--All you need is a blank line-->
 
