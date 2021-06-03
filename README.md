@@ -184,8 +184,8 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 
 ## Code
 
-### Trebuchet Code 1
-This Code as seen in the dropdown below is the code for starting the trebuchets launch and
+### FuncAngleOMeter
+
 <details>
 <summary>Code</summary>
 <!--All you need is a blank line-->
@@ -422,7 +422,7 @@ velocityMagnitudeFinal = round(vnet)
 ```
 </details>
 
-### 
+### Index
 
 <details>
 <summary>Code</summary>
@@ -430,11 +430,100 @@ velocityMagnitudeFinal = round(vnet)
 
 **Python** *Code*
 ```python
+<!doctype html>
+<html>
+<head>
+     <title>Trebuchet with Flask!</title>
+<style>
+
+button{
+	display: block;
+
+	margin-left:10%;
+	margin-right:10%;
+	width: 80%;
+
+	border-style: none;
+	padding: 14px 28px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+button:active{
+	position:relative;
+	top:1px;
+}
+
+.btn1 {
+	background-color: #38a832; 
+	
+}
 
 
+body{
+background-color: #000033;
+color: #FFFFFF;
+text-align:center;
+list-style-position: inside;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+</style>
+</head>
+<body>
+{{msg}}
+
+<form method="POST">
+     <button type="submit" name="button1" class="button btn1" value="button1">Launch Button</button>
+</form>
+
+<h1> Trebuchet Launch Interface </h1>
+
+<h2> How to Use </h2>
+
+<ol class="body">
+	<li> Press Launch Button </li>
+	<li> Follow Launch Instructions </li>
+	<li> (If Graph Not Updated, press CTRL + SHIFT + R</li>
+</ol>
+
+<div class="row">
+  <div class="column">
+    <img src="/static/images/refreshTestImage.png" alt="Graph" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/static/images/dataImage.png" alt="Data" style="width:100%">
+  </div>
+</div>
+
+
+<meta http-equiv="refresh" content="5">
+
+</body>
+</html>
 ```
 </details>
 
+	
+### 
 ## Physical Assembly
 ### Capsule
 <img src="media/Top_Circle_Printed.png" height="300">
