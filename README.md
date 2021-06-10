@@ -184,7 +184,9 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 ## Code
 
 
-The code in this project was definitely tricky and had a lot of moving parts, that said I, Graham, was pretty happy with how everything turned out. Annoyingly, for the last month of school, Graham was out for 4 weeks with concussion fun times, which left us with code that all worked seperately, but really was not all yet integrated together into the app.py fle. That said, we have the 3 main files below that all work seperately to do the 3 different hard tasks we needed. (Gettin the angle and velocity at launch, getting the graphs to be refreshed on the website, and getting data from the angle/velocity calculation file)The app.py is not included here as most of the code in it is irrelevant or outdated. 
+The code in this project was definitely tricky and had a lot of moving parts, that said I, Graham, was pretty happy with how everything turned out. Annoyingly, for the last month of school, Graham was out for 4 weeks with concussion fun times, which left us with code that all worked seperately, but really was not all yet integrated together into the app.py fle. That said, we have the 3 main files below that all work seperately to do the 3 different hard tasks we needed. (Gettin the angle and velocity at launch, getting the graphs to be refreshed on the website, and getting data from the angle/velocity calculation file)
+
+Notea: The app.py is not included here as most of the code in it is irrelevant or outdated. The goal was to run the app.py when we wanted to launch, and have all the code in the app.py, we then had the FuncAngleOmeter file, which the app.py would hypothetically call from; which we mimicked with the getAngleTest File.
 
 Our vision for the code was as follows, which we did most of the work towards, but just didn't quite get the time to finish it with Graham being out. 
 
@@ -193,7 +195,12 @@ Our vision for the code was as follows, which we did most of the work towards, b
 * With that data, calculate the trajectory of the projectile (the raspberry pi)
 * On a website - show the distance the projectile flew, graph the flight of the projectile, show the equation of the flight of the projectile
 
+Our success (on code) for each vision is also as follows
 
+* We have a button and passkey to make sure the projectile would launch safely, this is on the Flask website when you run app.py
+* We have a launch angle and launch velocity
+* We do not have the calculations, but that is the next, rather easy, step. This is where being cut 4 weeks short hurt us.
+* We do have the website with the graphing code, equation images, and all other photos ready, they just don't have data to supply them. So they are just black boxes right now. But give them data, they work. 
 
 
 ### FuncAngleOMeter
