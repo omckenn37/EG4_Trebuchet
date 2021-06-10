@@ -576,5 +576,11 @@ print("Velocity: " + str(velocity))
 ### Capsule
 <img src="media/Top_Circle_Printed.png" height="300">
 This is the printed version of the Top Sphere. You can see the laser cut pieces that are a nice, bright pink that are held together by standoffs. This is the first part we've 3D printed; It has overall gone well their was a slght hiccup in the assembly were some of the plastic was damaged but nothing we couldnt fix.
+<p float="left">
+  <img src="media/PiCapsule.png" Height="325">
+  <img src="media/CapsulePhysicalAssembly1.png" height="325">
+  <img src="media/CapsulePhysicalAssembly2.png" height="325">
+  <img src="media/CapsulePhysicalAssembly3.png" height="325">
+</p>
 
 ## Results
