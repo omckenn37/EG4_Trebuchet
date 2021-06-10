@@ -574,6 +574,7 @@ print("Velocity: " + str(velocity))
 	
 ## Physical Assembly
 ### Capsule
+	
 #### Completely Assembled Capsule
 <p float="left">
   <img src="media/CapsulePhysicalAssembly1.png" height="250">
@@ -581,9 +582,11 @@ print("Velocity: " + str(velocity))
   <img src="media/CapsulePhysicalAssembly3.png" height="250">
 </p>
 This is a few pictures of the fully assembled physical capsule there were a bit of issues but that was expected with little time for troubleshooting with the year we've had. You can see the screw and nut slots fit pretty well together making the capsule assemble nicely. One issues encountered was the power booster and a lack to account for the wire attached in planning which cause some complications. The capsule is a bit fragile but once wrapped in bubble wrap and other softening agents we believe it will be able to withstand impact when launched from the trebuchet.
+	
 #### Top Circle
 <img src="media/Top_Circle_Printed.png" height="300">
 This is the printed version of the Top Sphere. You can see the laser cut pieces that are a nice, bright pink that are held together by standoffs. This is the first part we've 3D printed; It has overall gone well their was a slght hiccup in the assembly were some of the plastic was damaged but nothing we couldnt fix.
+	
 #### Components of the capsule
 <img src="media/PiCapsule.png" Height="300">	
 Here you can see the Capsule fully assembled and get a closer look at where the pi is and how its being secured. It is being screwed in by standoffs with the 3D printed pieces and has standoffs ontop of that. 
