@@ -158,7 +158,7 @@ To make sure that our pivot arm had smooth movement, we decided to incorporate b
 
 ##### Steel Rod
 
-We used 5mm steel rod for the finger as well as to hold our counterweight string as it had a small diameter and could hold quite a bit of weight. 
+We used 5mm steel rod for the finger as well as to hold our counterweight string as it had a small diameter and could hold quite a bit of weight. Additionally, these rods were comically difficult to cut; first, we tried using a hacksaw but this barely left a mark on the rod. Instead, asked for assistance from Mr. Helmstetter and Dr. Shields and ended up using a electric hacksaw. Even with this, the rod barely cut; it actually melted from friction between the blade and the rod before it cut. Eventually, we were able to successfully cut one of the rods and were able to use them for the finger swivel. 
 
 #### Full Trebuchet Assembly
 
