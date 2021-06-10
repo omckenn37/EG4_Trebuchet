@@ -200,6 +200,8 @@ Our vision for the code was as follows, which we did most of the work towards, b
 
 This is the last file Graham got working before concussion and whatnot, but it does work properly. It looks pretty complicated and scary, but that is because I, Graham, did not write most of it. Basically, I borrowed a library by [rocheparadox](https://github.com/rocheparadox/Kalman-Filter-Python-for-mpu6050), which does most of the heaby lifting for me. But I had to add the integration for the velocity and tweak things here and there in order for it to be entirely self contained. What this file does -- when ran, it calculates the change in angle and change in velocity that the rasperry pi experiences. After a set time, it produces the angle and velocity. 
 
+More techinically, this code is similar to a riemann sum, where we calculate the angle and the acceleration in every direction as quick as possible as many times as possdible, which we then integrate (or add) all together to produce a speed and a final angle.
+
 <details>
 <summary>Code</summary>
 <!--All you need is a blank line-->
