@@ -524,7 +524,7 @@ list-style-position: inside;
 		
 ### Get Angle Test
 
-Get Angle Test Code Stuff
+The Get Angle Test file essentially runs the funcAngleOmeter File. It then recieves the angle and velocity of the launch from the funcAngleOmeter file, and prints them out. This was going to be the main trebuchet code of the app.py file -- the code that actually calculates the angle and velocity, which it does; just not integrated into the app.py
 	
 	
 <details>
