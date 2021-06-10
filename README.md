@@ -185,6 +185,8 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 
 ### FuncAngleOMeter
 
+This is the last file Graham got working before concussion and whatnot, but it does work properly. It looks pretty complicated and scary, but that is because I, Graham, did not write most of it. Basically, I borrowed a library by [rocheparadox](https://github.com/rocheparadox/Kalman-Filter-Python-for-mpu6050), which does most of the heaby lifting for me. But I had to add the integration for the velocity and tweak things here and there in order for it to be entirely self contained. What this file does -- when ran, it calculates the change in angle and change in velocity that the rasperry pi experiences. After a set time, it produces the angle and velocity. 
+
 <details>
 <summary>Code</summary>
 <!--All you need is a blank line-->
