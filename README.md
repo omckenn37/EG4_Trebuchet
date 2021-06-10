@@ -423,6 +423,8 @@ velocityMagnitudeFinal = round(vnet)
 
 ### Index
 
+The Index file mostly just provides the html for the app.py file. That said, it does more than just the colors and what not for html. It also puts the images of the graph of the flight, and the equation of the flight as images. When app.py (hypothetically the main file) runs, it generates the images, stores then, and then the index file updates them. In the end, this produces the equation and graph of the flight. Note: due to time issues, all this does at the moment is print and update the image, it does not actually print the values as we need to be 100% finished to get those values. 
+	
 <details>
 <summary>Code</summary>
 <!--All you need is a blank line-->
