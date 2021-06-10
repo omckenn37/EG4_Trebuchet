@@ -183,6 +183,19 @@ The final CAD assembly of the trebuchet combines all of the listed components in
 
 ## Code
 
+
+The code in this project was definitely tricky and had a lot of moving parts, that said I, Graham, was pretty happy with how everything turned out. Annoyingly, for the last month of school, Graham was out for 4 weeks with concussion fun times, which left us with code that all worked seperately, but really was not all yet integrated together into the app.py fle. That said, we have the 3 main files below that all work seperately to do the 3 different hard tasks we needed. (Gettin the angle and velocity at launch, getting the graphs to be refreshed on the website, and getting data from the angle/velocity calculation file)The app.py is not included here as most of the code in it is irrelevant or outdated. 
+
+Our vision for the code was as follows, which we did most of the work towards, but just didn't quite get the time to finish it with Graham being out. 
+
+* Launch a projectile with a Trebuchet remotely with a button on a website
+* Take the launch angle and launch velocity
+* With that data, calculate the trajectory of the projectile (the raspberry pi)
+* On a website - show the distance the projectile flew, graph the flight of the projectile, show the equation of the flight of the projectile
+
+
+
+
 ### FuncAngleOMeter
 
 This is the last file Graham got working before concussion and whatnot, but it does work properly. It looks pretty complicated and scary, but that is because I, Graham, did not write most of it. Basically, I borrowed a library by [rocheparadox](https://github.com/rocheparadox/Kalman-Filter-Python-for-mpu6050), which does most of the heaby lifting for me. But I had to add the integration for the velocity and tweak things here and there in order for it to be entirely self contained. What this file does -- when ran, it calculates the change in angle and change in velocity that the rasperry pi experiences. After a set time, it produces the angle and velocity. 
