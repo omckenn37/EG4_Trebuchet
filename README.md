@@ -22,8 +22,13 @@ Trebuchet. Up the reds
     + [Other Components](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#other-components)
     + [Full Trebuchet Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#full-trebuchet-assembly)
 - [Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)
+  * [FuncAngleOMeter](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#funcangleometer)
+  * [Index](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#index)
+  * [Get Angle Test](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#get-angle-test)
 - [Physical Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#physical-assembly)
-- [Results](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#results)
+  * [Capsule](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#capsule)
+  * [Trebuchet](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#trebuchet)
+- [Results and Overall Reflections](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#results-and-overall-reflections)
 
 ## Trebuchet Design
 
