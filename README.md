@@ -21,7 +21,6 @@ Trebuchet. Up the reds
     + [Axle Cap](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#axle-cap)
     + [Other Components](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#other-components)
     + [Full Trebuchet Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#full-trebuchet-assembly)
-- [Trebuchet Simulation](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#trebuchet-simulation)
 - [Code](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#code)
 - [Physical Assembly](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#physical-assembly)
 - [Results](https://github.com/omckenn37/EG4_Trebuchet/blob/main/README.md#results)
@@ -590,5 +589,24 @@ This is the printed version of the Top Sphere. You can see the laser cut pieces 
 #### Components of the capsule
 <img src="media/PiCapsule.png" Height="300">	
 Here you can see the Capsule fully assembled and get a closer look at where the pi is and how its being secured. It is being screwed in by standoffs with the 3D printed pieces and has standoffs ontop of that. 
+
+### Trebuchet
+
+Here a a few pictures of the trebuchet assembled in real life. As you can see, all of the laser cut joints and 3D printed joints worked perfectly. One worry that we had about using laser cut joints was that they could potentially shatter or snap when under heavy loads from things like the counterweight; this proved not to be an issue as no pieces broke during testing.
+
+<p float="left">
+<img src="media/tr1.JPG" height="250">
+<img src="media/tr2.JPG" height="250">
+<img src="media/tr3.JPG" height="250">
+<img src="media/tr4.JPG" height="250">
+<img src="media/tr5.JPG" height="250">
+<img src="media/tr6.JPG" height="250">
+<img src="media/tr7.JPG" height="250">
+
+</p>
 	
-## Results
+## Results and Overall Reflections
+	
+In the final day of testing, we area able to launch a projectile roughly 35 feet. All things considered, we feel like this was a good number to achieve even though it wasn't quite the distance that we had set in our planning. The main reason that we were not able to launch as far as we wanted was physical optimization. During testing, which we only had one day to do, we had very little time to adjust and change measurements that could result in a farther launch. If we had days, even weeks more time to change stuff around and figure out what configuration actually got us maximum range, we probably would have been able to shoot significantly further. 
+Besides the code, which was not completed for obvious reasons, all the different aspects of this project came together pretty well and in a timely manner. The trebuchet body proved to be a success as nothing snapped or shattered under load, and the capsule was also a success as it was able to fit all the necessary components and was fairly rigid. 
+However, in a better school format (not hybrid or virtual learning, regular school), we would have probably found much more success in a much faster manner. When you are only in the lab one day a week, it becomes hard to do physical assembly as you only have ~1.5 hours to do so per week. For example, the physical fabrication and assembly of trebuchet parts took around 3 weeks but in a normal school format would have probably taken a few days. Even with this time constraint, we were still able to produce a project that did what we wanted it to do and succesfully fire projectiles.
